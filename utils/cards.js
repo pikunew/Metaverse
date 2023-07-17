@@ -1,17 +1,15 @@
-
-
 import Kiran from "../public/Kiran-Bedi.jpg";
 import Rahul from "../public/Rahul.JPG";
 import lady from "../public/lady.JPG";
 import influ from "../public/influ.JPG";
 import Abhi from "./Abhishek-Dutta.JPG";
 
-
 export const cards = [
   {
     id: 1,
     title: "Know More",
-    description: "Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit d",
+    description:
+      "Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit dolore cillum cillum eu ipsum in qui sit enim irure ex cupidatat reprehenderit.Reprehenderit d",
     image: Kiran,
     link: "/Kiran-Bedi",
   },
@@ -25,14 +23,16 @@ export const cards = [
   {
     id: 3,
     title: "Know More",
-    description: "Reprehenderitendpsum in qui sit enim irure ex cupidatat reprehenderit.",
+    description:
+      "Reprehenderitendpsum in qui sit enim irure ex cupidatat reprehenderit.",
     image: influ,
     link: "/influ",
   },
   {
     id: 4,
     title: "Know More",
-    description: "Reprehenderit dolore cillum cillum in qui sit enim  Reprehenderit .",
+    description:
+      "Reprehenderit dolore cillum cillum in qui sit enim  Reprehenderit .",
     image: Abhi,
     link: "/Abhisek-Dutta",
   },

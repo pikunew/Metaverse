@@ -1,18 +1,14 @@
-'use client'
+"use client";
 
-import {  ContactWorld } from "../../sections";
-import { Navbar } from '../../components';
-
-
-
+import { ContactWorld } from "../../sections";
+import { Navbar } from "../../components";
 const contact = () => {
   return (
     <div>
-    <Navbar/>
-    <ContactWorld/>;
-    
+      <Navbar />
+      <ContactWorld />;
     </div>
-  )
-}
+  );
+};
 
 export default contact;
