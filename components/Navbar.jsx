@@ -20,8 +20,10 @@ const Navbar = () => {
     >
       <div className="fixed left-0 top-0 w-full z-20 ease-in duration-300">
         <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-gray-800 ">
-          <Link href="/home">
+          <Link href="/#">
             <Image
+              width={120}
+              height={50}
               src="/logo.png"
               alt="mahilabol"
               className=" xl:w-44 lg:w-44 w-32 h-auto"
@@ -29,7 +31,7 @@ const Navbar = () => {
           </Link>
           <ul className="hidden sm:flex">
             <li className="p-4">
-              <Link href="http://localhost:3000/"> Home</Link>
+              <Link href="/#"> Home</Link>
             </li>
             <li className="p-4">
               <Link href="/get-to-know-us"> Get to know us</Link>

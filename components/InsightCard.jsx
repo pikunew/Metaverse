@@ -10,6 +10,8 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     className="flex md:flex-row flex-col gap-4"
   >
     <Image
+      width={1847}
+      height={1276}
       src={imgUrl}
       alt="planet-01"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"

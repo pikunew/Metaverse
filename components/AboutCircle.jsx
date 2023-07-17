@@ -28,6 +28,8 @@ const AboutCircle = () => {
             className="relative  md:mt-0 flex justify-center text-center w-full h-full "
           >
             <Image
+              height={800}
+              width={1920}
               src="/white-bg.png"
               alt="map"
               className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -40,6 +42,8 @@ const AboutCircle = () => {
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                     <Image
+                      width={834}
+                      height={856}
                       src="/4.png"
                       alt="map"
                       className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -51,6 +55,8 @@ const AboutCircle = () => {
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                     <Image
+                      width={834}
+                      height={847}
                       src="/5.png"
                       alt="map"
                       className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -62,6 +68,8 @@ const AboutCircle = () => {
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                     <Image
+                      width={765}
+                      height={797}
                       src="/6.png"
                       alt="map"
                       className="w-full h-full  object-cover relative flex flex-col justify-center text-center"

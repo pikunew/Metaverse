@@ -11,6 +11,8 @@ const AboutCard = () => {
         <div className="flex gap-8 justify-center items-center flex-col md:flex-row  sm:gap-3 md:gap-5">
           <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#fff0e8] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
+              width={150}
+              height={200}
               src="/1.svg"
               alt="lady-shape-one"
               className=" w-full h-full object-contain  absolute"
@@ -38,6 +40,8 @@ const AboutCard = () => {
 
           <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#E5989B] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
+              width={150}
+              height={200}
               src="/2.png"
               alt="lady-shape-two"
               className=" w-full h-full object-contain  absolute  opacity-60"
@@ -65,6 +69,8 @@ const AboutCard = () => {
 
           <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#6D6875] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
+              width={150}
+              height={200}
               src="/3.png"
               alt="lady-shape-three"
               className=" w-full h-full object-contain  absolute  opacity-50"

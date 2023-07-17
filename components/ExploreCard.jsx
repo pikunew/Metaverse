@@ -14,6 +14,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     onClick={() => handleClick(id)}
   >
     <Image
+      width={1847}
+      height={1276}
       src={imgUrl}
       alt="planet-04"
       className="absolute w-full h-full object-cover rounded-[24px]"
@@ -28,6 +30,8 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
         >
           <Image
+            width={100}
+            height={100}
             src="/headset.svg"
             alt="headset"
             className="w-1/2 h-1/2 object-contain"
