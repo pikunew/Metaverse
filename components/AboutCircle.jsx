@@ -27,7 +27,7 @@ const AboutCircle = () => {
             variants={fadeIn("up", "tween", 0.3, 1)}
             className="relative  md:mt-0 flex justify-center text-center w-full h-full "
           >
-            <img
+            <Image
               src="/white-bg.png"
               alt="map"
               className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -39,7 +39,7 @@ const AboutCircle = () => {
               >
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
-                    <img
+                    <Image
                       src="/4.png"
                       alt="map"
                       className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -50,7 +50,7 @@ const AboutCircle = () => {
 
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
-                    <img
+                    <Image
                       src="/5.png"
                       alt="map"
                       className="w-full h-full object-cover relative flex flex-col justify-center text-center"
@@ -61,7 +61,7 @@ const AboutCircle = () => {
 
                 <div className="flex flex-col">
                   <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-56 w-56 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
-                    <img
+                    <Image
                       src="/6.png"
                       alt="map"
                       className="w-full h-full  object-cover relative flex flex-col justify-center text-center"

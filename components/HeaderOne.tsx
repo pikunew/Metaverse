@@ -24,24 +24,18 @@ const HeaderOne = () => {
           <h1 className=" font-bold text-4xl">This is the Main Heading One</h1>
           <p className="xl:text-base  text-sm   text-gray-800 transition-all ease-linear py-8 text-justify">
             Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been theindustry'sstandarddummy text ever
+            industry. Lorem Ipsum has been theindustrysstandarddummy text ever
             since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only
             five centuries, Lorem Ipsum is simply dummy text of the printing and
             typesetting industry. Lorem Ipsum has been
-            theindustry'sstandarddummy text ever since the 1500s, when an
+            theindustrysstandarddummy text ever since the 1500s, when an
             unknown printer took a galley of type and scrambled it to make a
             type specimen book. It has survived not only five centuries,
           </p>
 
           <div className=" sm:justify-center sm:gap-5 sm:flex-row flex flex-col ">
-            {/* <Button 
-              name="Know More"
-              background="#c93179"
-              color="#fff"
-              border="1px solid #c93179"
-              icon={<FaRegArrowAltCircleRight />}
-             /> */}
+            
 
             <button className="sm:w-[200px] rounded-3xl border-[1px] bg-[#c93179] hover:text-white hover:font-bold text-gray-200  py-4 mt-4">
               Know More
