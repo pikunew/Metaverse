@@ -8,6 +8,7 @@ import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
 import ContactWorld from './ContactWorld';
+import Video from './Video';
 
 
 export {
@@ -21,5 +22,6 @@ export {
   Insights,
   Feedback,
   ContactWorld,
+  Video,
   
 };

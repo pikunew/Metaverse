@@ -34,7 +34,7 @@ const Navbar = () => {
       <img
                             src="/logo.png"
                             alt="mahilabol"
-                            className=" w-44 h-auto"
+                            className=" xl:w-44 lg:w-44 w-32 h-auto"
             
                         />
       </Link>
@@ -43,16 +43,16 @@ const Navbar = () => {
           <Link href='http://localhost:3000/'> Home</Link>
         </li>
         <li className='p-4'>
-          <Link href='http://localhost:3000/get-to-know-us'> Get to know us</Link>
+          <Link href='/get-to-know-us'> Get to know us</Link>
         </li>
         <li className='p-4'>
           <Link href='/what-we-do'> What we do</Link>
         </li>
         <li className='p-4'>
-          <Link href='http://localhost:3000/what-we-do'> Contribute</Link>
+          <Link href='#/'> Contribute</Link>
         </li>
         <li className='p-4'>
-          <Link href='http://localhost:3000/contact'> Contact us</Link>
+          <Link href='/contact'> Contact us</Link>
         </li>
       </ul>
 

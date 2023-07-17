@@ -9,7 +9,7 @@ import Slider from './Slider';
 import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
-import ContactDeail from './ContactDetail';
+
 
 
 
@@ -26,6 +26,6 @@ export {
   Slider,
   InsightCard,
   Footer,
-  ContactDeail,
+  
   
 };

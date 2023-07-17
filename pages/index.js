@@ -1,5 +1,5 @@
 import { Footer, Navbar, HeaderOne,AboutCard,AboutCircle } from '../components';
-import { About, Explore, Feedback, GetStarted, Insights, WhatsNew, World } from '../sections';
+import { About, Explore, Feedback, GetStarted, Insights, Video, World,} from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black    overflow-hidden">
@@ -10,10 +10,12 @@ const Home = () => (
     <Explore />
     <AboutCircle/>
     <GetStarted />
-    <WhatsNew />
+    <Video/>
+    
     <World />
-    <Insights />
     <Feedback />
+    <Insights />
+    
     <Footer />
   </div>
 );
