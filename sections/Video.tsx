@@ -26,7 +26,7 @@ const Video = () => {
             
           >
             <iframe className=" w-[100%] h-60  md:h-96 lg:h-[48rem] rounded-none" src="https://www.youtube.com/embed/rraNVeJ5fu0" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
             

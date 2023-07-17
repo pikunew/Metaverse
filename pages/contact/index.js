@@ -1,4 +1,4 @@
-"use client"
+'use client'
 
 import {  ContactWorld } from "../../sections";
 import { Navbar } from '../../components';
@@ -9,16 +9,7 @@ const contact = () => {
   return (
     <div>
     <Navbar/>
-    <ContactWorld/>
-    
-
-    
-
-
- 
-
-
-    
+    <ContactWorld/>;
     
     </div>
   )
