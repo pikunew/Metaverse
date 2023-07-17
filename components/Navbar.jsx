@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import styles from "../styles";
@@ -20,7 +21,7 @@ const Navbar = () => {
       <div className="fixed left-0 top-0 w-full z-20 ease-in duration-300">
         <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-gray-800 ">
           <Link href="/home">
-            <img
+            <Image
               src="/logo.png"
               alt="mahilabol"
               className=" xl:w-44 lg:w-44 w-32 h-auto"
