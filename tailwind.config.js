@@ -10,9 +10,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'lady-one': "url('/public/1.png')",
-        'lady-two': "url('/public/2.png')",
-        'lady-three': "url('/public/3.png')",
+        'white-bg': "url('/white-bg.png')",
+        
        },
 
 

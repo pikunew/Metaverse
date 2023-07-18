@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import hover3d from "../utils/motion";
+import Link from "next/link";
 const HeaderOne = () => {
   const hero = useRef<HTMLDivElement>(null);
 
@@ -18,7 +19,7 @@ const HeaderOne = () => {
     z: 11,
   });
   return (
-    <div className="mt-20" ref={hero}>
+    <div className="mt-28" ref={hero}>
       <div className=" lg:flex-row  lg:pt-0 lg:pr-8 lg:pb-20 lg:pl-14 lg:justify-around lg:items-center lg:gap-2 lg:min-h-[90vh] p-0 flex flex-col-reverse justify-between align-middle gap-6 min-h-full bg-primary-black  overflow-hidden">
         <div className=" xl:w-[35vw] lg:w-[40vw] lg:pt-48 sm:px-16 sm:flex-col sm:text-center pb-16 pt-2 px-6">
           <h1 className=" font-bold text-4xl">This is the Main Heading One</h1>
@@ -38,6 +39,7 @@ const HeaderOne = () => {
             
 
             <button className="sm:w-[200px] rounded-3xl border-[1px] bg-[#c93179] hover:text-white hover:font-bold text-gray-200  py-4 mt-4">
+              <Link href="/get-to-know-us"></Link>
               Know More
             </button>
             <button className=" sm:w-[200px] rounded-3xl border-[1px] hover:text-[#c93179] hover:font-bold border-black py-4 mt-4">
@@ -54,7 +56,7 @@ const HeaderOne = () => {
             style={{
               transform: imageHover.transform,
             }}
-            className=" lg:w-[600px] lg:h-auto xl:w-[900px] rounded-lg"
+            className=" lg:w-[600px] lg:h-auto xl:w-[900px] rounded-lg z-10"
           />
         </div>
       </div>

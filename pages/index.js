@@ -4,6 +4,7 @@ import {
   HeaderOne,
   AboutCard,
   AboutCircle,
+
 } from "../components";
 import {
   About,
@@ -25,7 +26,6 @@ const Home = () => (
     <AboutCircle />
     <GetStarted />
     <Video />
-
     <World />
     <Feedback />
     <Insights />
