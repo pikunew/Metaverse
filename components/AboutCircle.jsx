@@ -1,136 +1,95 @@
 "use client";
 
+
 import { motion } from "framer-motion";
 import Image from "next/image";
 import styles from "../styles";
 import { TitleText, TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
+import React from 'react'
 
 const AboutCircle = () => {
   return (
-   
-      <div className="relative h-[90vh] flex flex-col justify-center text-center">
-      
-          <Image
-              fill
-              objectFit="cover"
-              src="/white-bg.png"
-              alt="White feather background"
-            />
-
-            
-            {/*destop view  */}
-           <div className=" md:flex-row hidden sm:flex  justify-center xl:gap-28 md:gap-16">
-              {/* Fucntion One of Mahilabol */}
-              <div>
-                  <div className="relative flex flex-col justify-center text-center xl:h-[280px] xl:w-[280px] md:h-[180] md:w-[180px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/4.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-8">Function One</h3>
-              </div>
-
-              {/* Fucntion Two of Mahilabol */}
-              <div>
-                  <div className="relative flex flex-col justify-center text-center xl:h-[280px] xl:w-[280px] md:h-[180] md:w-[180px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/5.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-8">Function One</h3>
-              </div>
-
-              {/* Function Three of Mahilabol */}
-              <div>
-                  <div className="relative flex flex-col justify-center text-center xl:h-[280px] xl:w-[280px] md:h-[180] md:w-[180px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/6.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-8">Function One</h3>
-              </div>
-          </div>
-          {/* Desktop View Ends */}
-
-          {/* Mobile View Start */}
-          <div className=" md:flex-row flex flex-col sm:hidden text-center justify-center xl:gap-28 md:gap-16">
-              {/* Fucntion One of Mahilabol */}
-              <div className="flex justify-center mt-6">
-                <div className="flex flex-col">
-                  <div className="relative flex flex-col justify-center text-center h-[140] w-[140px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/4.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-4">Function One</h3>
-                </div>
-              </div>
-
-              {/* Fucntion Two of Mahilabol */}
-              <div className="flex justify-center mt-6">
-                <div className="flex flex-col">
-                  <div className="relative flex flex-col justify-center text-center h-[140] w-[140px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/5.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-4">Function One</h3>
-                </div>
-              </div>
-
-              {/* Function Three of Mahilabol */}
-              <div className="flex justify-center mt-6">
-                <div className="flex flex-col">
-                  <div className="relative flex flex-col justify-center text-center h-[140] w-[140px] rounded-full bg-[#e5989b] ">
-                        <Image
-                          width={100}
-                          height={100}
-                          src="/6.png"
-                          alt="Mahilabol funtion One"
-                          className="w-full h-full object-cover relative flex flex-col justify-center text-center p-10"
-                        />
-                        
-
-                  </div>
-                  <h3 className=" relative mt-4">Function One</h3>
-                </div>
-              </div>
-          </div>
-          {/* Mobile View Ends */}
-      </div>
     
-  );
-};
+    <div className="bg-white ">
+          <section className={`${styles.paddings} relative z-10 h-[120vh] md:h-[90vh]  `}>
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25 }}
+              className={`${styles.innerWidth} mx-auto flex flex-col`}
+            >
+              <TypingText title="| What Mahilabol Do" textStyles="text-center" />
+              <TitleText
+                title={<>What We are meant for</>}
+                textStyles="text-center"
+              />
+    
+              <motion.div
+                variants={fadeIn("up", "tween", 0.3, 1)}
+                className="relative  md:mt-0 flex justify-center text-center w-full h-full "
+              >
+                <Image
+                  height={800}
+                  width={1920}
+                  src="/white-bg.png"
+                  alt="map"
+                  className="w-full h-full object-cover relative flex flex-col justify-center text-center"
+                />
+                <div className=" absolute flex flex-col justify-center text-center">
+                  <motion.div
+                    variants={fadeIn("up", "tween", 0.5, 1)}
+                    className=" flex flex-col sm:flex-row gap-5 md:gap-24 xl:gap-32 pt-28 "
+                  >
+                    <div className="flex flex-col">
+                      <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
+                        <Image
+                          width={834}
+                          height={856}
+                          src="/4.png"
+                          alt="map"
+                          className="w-full h-full object-cover relative flex flex-col justify-center text-center"
+                        />
+                      </div>
+                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                    </div>
+    
+                    <div className="flex flex-col">
+                      <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
+                        <Image
+                          width={834}
+                          height={847}
+                          src="/5.png"
+                          alt="map"
+                          className="w-full h-full object-cover relative flex flex-col justify-center text-center"
+                        />
+                      </div>
+                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                    </div>
+     <div className="flex flex-col">
+                      <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
+                        <Image
+                          width={765}
+                          height={797}
+                          src="/6.png"
+                          alt="map"
+                          className="w-full h-full  object-cover relative flex flex-col justify-center text-center"
+                        />
+                      </div>
+                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                    </div>
+                  </motion.div>
+                </div>
+              </motion.div>
+            </motion.div>
+          </section>
+        </div>
+    
+    
+    
+    
+  )
+}
 
-export default AboutCircle;
+export default AboutCircle
