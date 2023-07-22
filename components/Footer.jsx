@@ -16,6 +16,7 @@ import { socials } from "../constants";
 
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
+import Link from "next/link";
 
 const Footer = () => (
   <motion.footer
@@ -98,11 +99,11 @@ const Footer = () => (
             <h3 className=" font-bold text-xl sm:text-2xl text-gray-800 hover:text-white mb-6">Main Menu</h3>
             <nav>
               <ul className=" flex flex-col gap-4 text-gray-900  sm:text-base  text-sm">
-                <li className=" hover:text-white "><a href="/#">Home</a></li>
-                <li className=" hover:text-white "><a href="/get-to-know-us">Get to know us</a></li>
-                <li className=" hover:text-white "><a href="what-we-do">What we do</a></li>
-                <li className=" hover:text-white "><a href="/contribute">Contribute</a></li>
-                <li className=" hover:text-white "><a href="/contact">Contact Us</a></li>
+                <li className=" hover:text-white "><Link href="/#">Home</Link></li>
+                <li className=" hover:text-white "><Link href="/get-to-know-us">Get to know us</Link></li>
+                <li className=" hover:text-white "><Link href="what-we-do">What we do</Link></li>
+                <li className=" hover:text-white "><Link href="/contribute">Contribute</Link></li>
+                <li className=" hover:text-white "><Link href="/contact">Contact Us</Link></li>
               </ul>
             </nav>
           </div>
@@ -115,10 +116,10 @@ const Footer = () => (
             </h3>
             <nav>
               <ul className=" flex flex-col gap-4  text-gray-900  sm:text-base text-sm">
-                <li className=" hover:text-white "><a href="/refunds">Refunds</a></li>
-                <li className=" hover:text-white "> <a href="/ethical-standard">Ethical Standard.</a></li>
-                <li className=" hover:text-white "><a href="/terms-of-service">Term of service</a></li>
-                <li className=" hover:text-white " ><a href="/privacy-policy">Privacy policy</a></li>
+                <li className=" hover:text-white "><Link href="/refunds">Refunds</Link></li>
+                <li className=" hover:text-white "> <Link href="/ethical-standard">Ethical Standard.</Link></li>
+                <li className=" hover:text-white "><Link href="/terms-of-service">Term of service</Link></li>
+                <li className=" hover:text-white " ><Link href="/privacy-policy">Privacy policy</Link></li>
               </ul>
             </nav>
           </div>
