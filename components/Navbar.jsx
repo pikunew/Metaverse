@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 import Link from "next/link";
@@ -47,19 +46,19 @@ const Navbar = () => {
             />
           </Link>
           <ul style={{backgroundColotr: `${textColor}`}} className="hidden sm:flex">
-            <li className="p-4">
+            <li className="p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/#"> Home</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/get-to-know-us"> Get to know us</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/what-we-do"> What we do</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="#/"> Contribute</Link>
             </li>
-            <li className="p-4">
+            <li className="p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/contact"> Contact us</Link>
             </li>
           </ul>
@@ -71,19 +70,19 @@ const Navbar = () => {
             {/* mobile stars */}
             <div  className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen  bg-[#c93179] text-center ease-in duration-300  z-20" : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen  bg-[#c93179] text-center eas duration-300 " }>
                 <ul className="">
-                  <li className=" p-4 text-white text-3xl hover:text-gray-200 hover:text-4xl">
+                  <li className=" p-4 text-white text-3xl hover:text-gray-200 transition-all ease-out hover:scale-110 hover:font-bold">
                     <Link href="/#"> Home</Link>
                   </li>
-                  <li className=" p-4 text-white text-3xl hover:text-gray-200 hover:text-4xl">
+                  <li className=" p-4 text-white text-3xl hover:text-gray-200  transition-all ease-out hover:scale-110 hover:font-bold">
                     <Link href="/get-to-know-us"> Get to know us</Link>
                   </li>
-                  <li className=" p-4 text-white text-3xl hover:text-gray-200 hover:text-4xl">
+                  <li className=" p-4 text-white text-3xl hover:text-gray-200  transition-all ease-out hover:scale-110 hover:font-bold">
                     <Link href="/what-we-do"> What we do</Link>
                   </li>
-                  <li className=" p-4 text-white text-3xl hover:text-gray-200 hover:text-4xl">
+                  <li className=" p-4 text-white text-3xl hover:text-gray-200  transition-all ease-out hover:scale-110 hover:font-bold">
                     <Link href="#/"> Contribute</Link>
                   </li>
-                  <li className=" p-4 text-white text-4xl hover:text-gray-200 hover:text-5xl">
+                  <li className=" p-4 text-white text-4xl hover:text-gray-200 ">
                     <Link href="/contact"> Contact us</Link>
                   </li>
                 </ul>

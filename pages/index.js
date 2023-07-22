@@ -16,6 +16,9 @@ import {
   World,
 } from "../sections";
 
+
+
+
 const Home = () => (
   <div className="bg-primary-black    overflow-hidden">
     <Navbar />

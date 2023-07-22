@@ -24,11 +24,11 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              Choose the world you want <br className="md:block hidden" /> to
+              Choose the world you want <br className="md:block  hidden" /> to
               explore
             </>
           }
-          textStyles="text-center"
+          textStyles="text-center text-[#6D6875] "
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {exploreWorlds.map((world, index) => (

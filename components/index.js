@@ -9,6 +9,7 @@ import Slider from "./Slider";
 import NewFeatures from "./NewFeatures";
 import InsightCard from "./InsightCard";
 import Footer from "./Footer";
+import FeatureTwo from "./FeatureTwo";
 
 export {
   Navbar,
@@ -23,4 +24,5 @@ export {
   Slider,
   InsightCard,
   Footer,
+  FeatureTwo,
 };

@@ -42,7 +42,7 @@ const AboutCircle = () => {
                     variants={fadeIn("up", "tween", 0.5, 1)}
                     className=" flex flex-col sm:flex-row gap-5 md:gap-24 xl:gap-32 pt-28 "
                   >
-                    <div className="flex flex-col">
+                    <div className="flex flex-col justify-center items-center">
                       <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                         <Image
                           width={834}
@@ -52,10 +52,11 @@ const AboutCircle = () => {
                           className="w-full h-full object-cover relative flex flex-col justify-center text-center"
                         />
                       </div>
-                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                      <p className="mt-8 font-bold text-xl">Women Helpline 
+0124-4007444</p>
                     </div>
     
-                    <div className="flex flex-col">
+                    <div className="flex flex-col justify-center items-center">
                       <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                         <Image
                           width={834}
@@ -65,9 +66,9 @@ const AboutCircle = () => {
                           className="w-full h-full object-cover relative flex flex-col justify-center text-center"
                         />
                       </div>
-                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                      <p className="mt-8 font-bold text-xl">Awareness & Education</p>
                     </div>
-     <div className="flex flex-col">
+     <div className="flex flex-col justify-center items-center">
                       <div className="bg-[#E5989B] xl:h-62 xl:w-62 md:h-40 md:w-40 h-36 w-36 lg:h-56 lg:w-56 rounded-full text-white flex flex-col justify-center text-center p-12">
                         <Image
                           width={765}
@@ -77,7 +78,7 @@ const AboutCircle = () => {
                           className="w-full h-full  object-cover relative flex flex-col justify-center text-center"
                         />
                       </div>
-                      <p className="mt-8 font-bold text-2xl">Point One</p>
+                      <p className="mt-8 font-bold text-xl ">Livlihood and Distress Aid</p>
                     </div>
                   </motion.div>
                 </div>

@@ -1,12 +1,16 @@
 "use client";
 
 import { ContactWorld } from "../../sections";
-import { Navbar } from "../../components";
+import { Navbar,Footer } from "../../components";
+
+
 const contact = () => {
   return (
     <div>
       <Navbar />
       <ContactWorld />;
+      
+      <Footer />
     </div>
   );
 };

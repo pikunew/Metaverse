@@ -1,7 +1,7 @@
 import styles from "../styles";
 import Image from "next/image";
 
-const NewFeatures = ({ imgUrl, title, subtitle }) => (
+const FeatureTwo = ({ imgUrl, title, subtitle }) => (
   <div className="flex-1 flex flex-col sm:max-w-[500px] min-w-[210px]">
     <div
       className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#c93179]`}
@@ -17,4 +17,4 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
   </div>
 );
 
-export default NewFeatures;
+export default FeatureTwo;

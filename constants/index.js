@@ -35,15 +35,27 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: "/vrpano.svg",
-    title: "A new world",
+    title: "Call 0124 4007444 for Women Helpline in India",
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      "The dedicated women helpline Guides women and girls on how to handle the situation they seek assistance on. Further, how to take the next course of action, either by going to police or going to a relevant NGO in their location for solutions.\nThe helpline is a collation of various helplines that run in the country to assist towns on various issues and the same can be accessed at www.womenhelpline.in.\nCurrently, the helpline has counselors who can support in Hindi, Punjabi, English, and Tamil.\n The project started in March 2018 and plans to run till March 2025, if you would like to support this project, please (click Donate button here)",
   },
+];
+
+export const featuresTwo = [
   {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
+    imgUrl: "/vrpano.svg",
+    title: "Awareness & Education",
     subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+      "Make the voice of women and girls heard and spread awareness about their rightful place in the society, by educating women and girls on their legal rights, employment options, health matters, skill building options and provide them a platform to voice their views and opinions.As part of this, there is a focused initiative on Providing awareness & Training on Maternity rightsProviding awareness & Training on Prevention of Sexual Harassment Providing awareness & Training on Minimum Wages Act and other employment laws Providing awareness and Training on dealing with family matters and laws relating to same A great degree of interaction is also done using social media, specially through our Facebook page and Twitter Account.The project Started in March 2018 and plans to run till March 2025, if you would like to support this project, please (click Donate button here)",
+  },
+];
+
+export const featuresThree = [
+  {
+    imgUrl: "/vrpano.svg",
+    title: "Livlihood and Distress Aid",
+    subtitle:
+      "Provide material support when women and girls are in need of financial or emotional assistance In the present context, we have supported the following areas Provide money for food or free food Provide money for hospitalization Provide assistance in arranging for hospitalization for women and girls Provide assistance for shelter or money for shelter repair We are able to provide assistance in most parts of the country through our associations with various other non-profits and Government agencies.The project Started in March 2020 and plans to run till March 2025, if you would like to support this project, please (click Donate button here)",
   },
 ];
 

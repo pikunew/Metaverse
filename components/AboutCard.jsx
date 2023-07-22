@@ -19,12 +19,10 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold ">One</h1>
+              <h1 className=" text-3xl  font-bold ">Women Helpline<br/>0124-4007444</h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                hic ipsum sequi ullam, saepe, modi minus quidem velit
-                voluptatibus aperiam excepturi recusandae assumenda quisquam.
-                Commodi, in? Eum quos commodi molestias.
+              The dedicated women helpline Guides women and girls on how to handle the situation they seek assistance on. Further, how to take the next course of action, either by going to police or going to a relevant NGO in their location for solutions
+
               </p>
 
               <div className="z-10 mt-2">
@@ -48,12 +46,11 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold ">Two</h1>
+              <h1 className=" text-3xl  font-bold ">Awareness & Education
+</h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                hic ipsum sequi ullam, saepe, modi minus quidem velit
-                voluptatibus aperiam excepturi recusandae assumenda quisquam.
-                Commodi, in? Eum quos commodi molestias.
+              Make the voice of women and girls heard and spread awareness about their rightful place in the society. We educate women and girls on their legal rights, employment options, health matters, skill options and provide them with a platform to voice their views and opinions
+
               </p>
 
               <div className="z-10 mt-2">
@@ -77,12 +74,12 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold ">Three</h1>
+              <h1 className=" text-3xl  font-bold text-white">Livlihood and Distress Aid
+</h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                hic ipsum sequi ullam, saepe, modi minus quidem velit
-                voluptatibus aperiam excepturi recusandae assumenda quisquam.
-                Commodi, in? Eum quos commodi molestias.
+              Provide material support when women and girls are in need of financial or emotional assistance
+
+.
               </p>
 
               <div className="z-10 mt-2">
