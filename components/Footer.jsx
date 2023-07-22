@@ -51,11 +51,11 @@ const Footer = () => (
               </h3>
               <nav>
                 <ul className=" flex flex-col gap-4 text-gray-900 hover:text-white text-sm">
-                  <li><a href="/#">Home</a></li>
-                  <li><a href="/get-to-know-us">Get to know us</a></li>
-                  <li><a href="what-we-do">What we do</a></li>
-                  <li><a href="/contribute">Contribute</a></li>
-                  <li><a href="/contact">Contact Us</a></li>
+                  <li><Link href="/#">Home</Link></li>
+                  <li><Link href="/get-to-know-us">Get to know us</Link></li>
+                  <li><Link href="what-we-do">What we do</Link></li>
+                  <li><Link href="/contribute">Contribute</Link></li>
+                  <li><Link href="/contact">Contact Us</Link></li>
                 </ul>
               </nav>
             </div>
@@ -72,7 +72,7 @@ const Footer = () => (
                   <li>Get to know us</li>
                   <li>Out Team</li>
                   <li>Contribute</li>
-                  <li><a href="/privacy-policy">Privacy policy</a></li>
+                  <li><Link href="/privacy-policy">Privacy policy</Link></li>
                 </ul>
               </nav>
             </div>
@@ -85,11 +85,11 @@ const Footer = () => (
               industry.
             </p>
             <div className="flex align-middle gap-4 text-2xl">
-              <a href="https://twitter.com/amar_hrhelpdesk?lang=en"><AiFillTwitterCircle className="pointer transition-all text-gray-800 ease-in-out hover:text-white" /></a>
-              <a href="https://www.instagram.com/hrhelpdesk/"><AiFillInstagram className="pointer transition-all text-gray-800 ease-in-out hover:text-white" /></a>
+              <Link href="https://twitter.com/amar_hrhelpdesk?lang=en"><AiFillTwitterCircle className="pointer transition-all text-gray-800 ease-in-out hover:text-white" /></Link>
+              <Link href="https://www.instagram.com/hrhelpdesk/"><AiFillInstagram className="pointer transition-all text-gray-800 ease-in-out hover:text-white" /></Link>
               
-              <a href="https://www.facebook.com/MahilaBol/"><AiFillFacebook className="pointer transition-all text-gray-800 ease-in-out hover:text-white " /></a>
-              <a href="https://www.youtube.com/@hrhelpdeskdotin/videos"><AiFillYoutube className="pointer transition-all text-gray-800 ease-in-out hover:text-white " ></AiFillYoutube></a>
+              <Link href="https://www.facebook.com/MahilaBol/"><AiFillFacebook className="pointer transition-all text-gray-800 ease-in-out hover:text-white " /></Link>
+              <Link href="https://www.youtube.com/@hrhelpdeskdotin/videos"><AiFillYoutube className="pointer transition-all text-gray-800 ease-in-out hover:text-white " ></AiFillYoutube></Link>
             </div>
           </div>
         </div>
