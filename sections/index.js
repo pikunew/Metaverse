@@ -9,6 +9,9 @@ import Insights from "./Insights";
 import Feedback from "./Feedback";
 import ContactWorld from "./ContactWorld";
 import Video from "./Video";
+import Contribute from "./Contribute";
+
+
 
 export {
   Hero,
@@ -22,5 +25,6 @@ export {
   Feedback,
   ContactWorld,
   Video,
- 
+  Contribute,
+
 };

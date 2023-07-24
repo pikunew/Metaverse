@@ -5,10 +5,6 @@ import Image from "next/image";
 import hover3d from "../utils/motion";
 import Link from "next/link";
 
-
-
-
-
 const HeaderOne = () => {
   const hero = useRef<HTMLDivElement>(null);
 
@@ -27,29 +23,33 @@ const HeaderOne = () => {
     <div className="mt-28" ref={hero}>
       <div className=" lg:flex-row  lg:pt-0 lg:pr-8 lg:pb-20 lg:pl-14 lg:justify-around lg:items-center lg:gap-2 lg:min-h-[90vh] p-0 flex flex-col-reverse justify-between align-middle gap-6 min-h-full bg-primary-black  overflow-hidden">
         <div className=" xl:w-[35vw] lg:w-[40vw] lg:pt-48 sm:px-16 sm:flex-col sm:text-center pb-16 pt-2 px-6">
-          <h1 className=" font-bold text-4xl text-[#6D6875]">This is the Main Heading One</h1>
+          <h1 className=" font-bold text-4xl text-[#6D6875]">
+            This is the Main Heading One
+          </h1>
           <p className="xl:text-base  text-sm   text-gray-800 transition-all ease-linear py-8 text-justify">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been theindustrysstandarddummy text ever
             since the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book. It has survived not only
             five centuries, Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been
-            theindustrysstandarddummy text ever since the 1500s, when an
-            unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries,
+            typesetting industry. Lorem Ipsum has been theindustrysstandarddummy
+            text ever since the 1500s, when an unknown printer took a galley of
+            type and scrambled it to make a type specimen book. It has survived
+            not only five centuries,
           </p>
 
           <div className=" sm:justify-center sm:gap-5 sm:flex-row flex flex-col ">
-            
-
-            <button className="sm:w-[200px] rounded-3xl border-[1px] bg-[#c93179] hover:text-white hover:font-bold text-gray-200  py-4 mt-4">
-              <Link href="/get-to-know-us">
-              Know More</Link>
-            </button>
-            <button className=" sm:w-[200px] rounded-3xl border-[1px] hover:text-[#c93179] hover:font-bold border-black py-4 mt-4">
-            <Link href="/"> Learn More</Link>
-            </button>
+            <Link href="/get-to-know-us">
+              {" "}
+              <button className="sm:w-[200px] rounded-3xl border-[1px] bg-[#c93179] hover:text-white hover:font-bold text-gray-200  py-4 mt-4">
+                Know More
+              </button>
+            </Link>
+            <Link href="/what-we-do">
+              <button className=" sm:w-[200px] rounded-3xl border-[1px] hover:text-[#c93179] hover:font-bold border-black py-4 mt-4">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
         <div className=" p-4 rounded-lg bg-[#F8EDE7] border-[1px] border-black ">

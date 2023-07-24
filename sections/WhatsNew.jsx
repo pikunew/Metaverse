@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
-
+import { FaWallet } from "react-icons/fa";
 import styles from "../styles";
 import { newFeatures,featuresTwo,featuresThree } from "../constants";
 import { NewFeatures,FeatureTwo, TitleText, TypingText } from "../components";
@@ -19,14 +20,18 @@ const WhatsNew = () => (
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.95] flex justify-center flex-col"
+        className="flex-[0.95] flex justify-center items-center flex-col"
       >
         <TypingText title="| About Us?" />
         <TitleText title={<>What we do?</>} />
-        <div className="mt-[48px] flex  justify-center gap-1">
+        <div className="mt-[48px] flex flex-col justify-center gap-1">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
+          <Link href="https://rzp.io/l/mahilabol">
+          <button className=" mt-5 w-[200px] h-10 sm:text-sm ml-8  hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold border-[1px] border-black  rounded-full"><span className="flex justify-center items-center sm:gap-2 gap-3">  {<FaWallet />}  Make a donation</span></button>
+          </Link>
+
         </div>
       </motion.div>
 
@@ -40,6 +45,7 @@ const WhatsNew = () => (
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
+      
     </motion.div>
     {/* first feature ends */}
     {/* Second feature starts */}
@@ -64,10 +70,15 @@ const WhatsNew = () => (
         variants={fadeIn("left", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <div className="mt-[48px] flex  justify-center gap-1">
+        <div className="mt-[48px] flex flex-col justify-center gap-1">
           {featuresTwo.map((feature) => (
             <FeatureTwo key={feature.title} {...feature} />
           ))}
+
+          <Link href="https://rzp.io/l/mahilabol">
+          <button className=" mt-5 w-[200px] h-10 sm:text-sm ml-8  hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold border-[1px] border-black  rounded-full"><span className="flex justify-center items-center sm:gap-2 gap-3">  {<FaWallet />}  Make a donation</span></button>
+          </Link>
+
         </div>
       </motion.div>
     </motion.div>
@@ -84,11 +95,14 @@ const WhatsNew = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <div className="mt-[48px] flex  justify-center gap-1">
+        <div className="mt-[48px] flex flex-col justify-center gap-1">
           {featuresThree.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
         </div>
+        <Link href="https://rzp.io/l/mahilabol">
+          <button className=" mt-5 w-[200px] h-10 sm:text-sm ml-8  hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold border-[1px] border-black  rounded-full"><span className="flex justify-center items-center sm:gap-2 gap-3">  {<FaWallet />}  Make a donation</span></button>
+          </Link>
       </motion.div>
 
       <motion.div

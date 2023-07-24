@@ -17,8 +17,13 @@ const Video = () => {
   );
 
   return (
-    <div className=" py-[10vh] px-[4vw]">
-      <motion.div className=" md:p-8 p-2 bg-[#161616] rounded-2xl" ref={video}>
+    <div className=" pt-[12vh] pb-[6vh] px-[4vw]">
+      <motion.div 
+      className=" md:p-8 p-2 bg-[#161616] rounded-2xl" 
+      ref={video}
+      style={{
+        opacity,
+        scale,}}>
         <iframe
           className=" w-[100%] h-60  md:h-96 lg:h-[48rem] rounded-none"
           src="https://www.youtube.com/embed/rraNVeJ5fu0"

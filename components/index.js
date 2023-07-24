@@ -11,6 +11,7 @@ import InsightCard from "./InsightCard";
 import Footer from "./Footer";
 import FeatureTwo from "./FeatureTwo";
 
+
 export {
   Navbar,
   TitleText,
@@ -25,4 +26,5 @@ export {
   InsightCard,
   Footer,
   FeatureTwo,
+  
 };

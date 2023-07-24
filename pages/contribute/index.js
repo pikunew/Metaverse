@@ -1,5 +1,16 @@
-const contribute = () => {
-  return <div>contribute</div>;
-};
+import { Navbar,Footer } from "../../components";
+import { Hero,Contribute } from "../../sections";
 
-export default contribute;
+const contribute = () => {
+  return (
+    <div>
+    
+    <Navbar/>
+    <Contribute/>
+    <Footer/>
+    
+    </div>
+  )
+}
+
+export default contribute

@@ -28,7 +28,7 @@ const AboutCard = () => {
               <div className="z-10 mt-2">
                 <button
                   type="button"
-                  className="border-[1px] px-8 py-4 text-sm mt-4 border-gray-900 font-semibold"
+                  className=" hover:bg-[#f8ede7]  hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-gray-900 font-semibold"
                 >
                   Know More
                 </button>
@@ -42,7 +42,7 @@ const AboutCard = () => {
               height={200}
               src="/2.png"
               alt="lady-shape-two"
-              className=" w-full h-full object-contain  absolute  opacity-60"
+              className=" w-full h-full object-contain  absolute  opacity-20"
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
@@ -56,7 +56,7 @@ const AboutCard = () => {
               <div className="z-10 mt-2">
                 <button
                   type="button"
-                  className="border-[1px] px-8 py-4 text-sm mt-4 border-white font-semibold text-white"
+                  className="hover:bg-[#E5989B] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-white font-semibold text-white"
                 >
                   Know More
                 </button>
@@ -70,7 +70,7 @@ const AboutCard = () => {
               height={200}
               src="/3.png"
               alt="lady-shape-three"
-              className=" w-full h-full object-contain  absolute  opacity-50"
+              className=" w-full h-full object-contain  absolute  opacity-10"
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
@@ -85,7 +85,7 @@ const AboutCard = () => {
               <div className="z-10 mt-2">
                 <button
                   type="button"
-                  className="border-[1px] px-8 py-4 font-semibold text-sm mt-4 border-white text-white"
+                  className="hover:bg-[#6D6875] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 font-semibold text-sm mt-4 border-white text-white"
                 >
                   Know More
                 </button>

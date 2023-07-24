@@ -1,6 +1,5 @@
-import Hero from "../../sections/Hero";
-import About from "../../sections/About";
-import WhatsNew from "../../sections/WhatsNew";
+
+import { GetStarted,About,Hero } from "../../sections";
 import Feedback from "../../sections/Feedback";
 import { Navbar,Footer } from "../../components";
 
@@ -11,7 +10,7 @@ const index = () => {
       <Hero />
       <About />
       <Feedback />
-      <WhatsNew />
+      <GetStarted />
       <Footer />
     </div>
   );

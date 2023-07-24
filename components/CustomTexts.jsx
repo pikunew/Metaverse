@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { textContainer, textVariant2 } from "../utils/motion";
+import { CustomTexts } from ".";
 
 export const TypingText = ({ title, textStyles }) => (
   <motion.p
@@ -26,3 +27,5 @@ export const TitleText = ({ title, textStyles }) => (
     {title}
   </motion.h2>
 );
+
+export default CustomTexts
