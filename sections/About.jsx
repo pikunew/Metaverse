@@ -16,25 +16,15 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} text-red-400 mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Mahilabol" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-gray-900"
       >
-        <span className="font-extrabold text-pink-700">Mahilabol</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{" "}
-        <span className="font-extrabold text-pink-700">
-          madness of the metaverse
-        </span>{" "}
-        of today, using only{" "}
-        <span className="font-extrabold text-pink-700">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{" "}
-        <span className="font-extrabold text-pink-700">explore</span> the
-        madness of the metaverse by scrolling down
+        <span className="font-extrabold text-pink-700">Dignified</span>  and <span className="font-extrabold text-pink-700">Equal Work Rights for Women</span>  is an aspiration we want to make a reality, we believe that in order to bring about a sustainable change in our society, we need to focus on dignity, equality, and the workplace. Help us spread the message and be the change
+{" "}
+        
       </motion.p>
 
       <motion.img

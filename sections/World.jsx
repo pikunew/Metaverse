@@ -19,8 +19,8 @@ const World = () => (
       <TitleText
         title={
           <>
-            Track friends around you and invite them to play together in the
-            same world
+            Places where we have reached women on the ground to contribute to providing dignified and equal work right for women
+
           </>
         }
         textStyles="text-center"

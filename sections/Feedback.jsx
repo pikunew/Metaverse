@@ -12,26 +12,26 @@ const Feedback = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-6`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col-reverse gap-6`}
     >
       <motion.div
         variants={fadeIn("right", "tween", 0.2, 1)}
-        className="flex-[0.5] lg:max-w-[370px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
+        className="flex-[0.5] lg:max-w-[570px] flex justify-end flex-col gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6A6A6A] relative"
       >
         <div className="feedback-gradient" />
         <div>
           <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-[#c93179]">
-            Amarpreet
+          Amarpreet Kaur
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-gray-500">
-            Founder Mahilabol
+          On a mission to make the voice of women heard
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-gray-700">
-          “With the development of today's technology, metaverse is very useful
-          for today's work, or can be called web 3.0. by using metaverse you can
-          use it as anything”
+        <p className="mt-[24px] font-normal sm:text-[18px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-gray-700">
+          “The trust is formed by Mrs. Amarpreet Kaur, who has been working for enhancing the way women are treated at their workplace. Right from the year 2010, when she started educating women on their work rights, she has counseled, trained, and mentored many women on their Work Rights. Whether it be maternity-related matters, equality, employment, medical, hygiene, discrimination, or sexual harassment, she has reached out to women across socioeconomic levels and across states, with the aim of making sure that their Voice is heard.
+
+”
         </p>
       </motion.div>
 
@@ -42,7 +42,7 @@ const Feedback = () => (
         <img
           src="/planet-09.png"
           alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          className="w-full lg:h-auto h-auto min-h-[210px] object-cover rounded-[40px]"
         />
 
         <motion.div
@@ -52,7 +52,7 @@ const Feedback = () => (
           <img
             src="/stamp.png"
             alt="stamp"
-            className="w-[155px] h-[155px] object-contain"
+            className="w-[135px] h-[135px] object-contain"
           />
         </motion.div>
       </motion.div>

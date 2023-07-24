@@ -81,8 +81,7 @@ const Footer = () => (
           {/* Hidden Menu Ends */}
           <div className=" flex flex-col justify-center sm:items-start items-center  sm:text-start text-center gap-5">
             <p className=" text-gray-800 hover:text-white text-sm">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+            Making the voice of women heard.
             </p>
             <div className="flex align-middle gap-4 text-2xl">
               <Link href="https://twitter.com/amar_hrhelpdesk?lang=en"><AiFillTwitterCircle className="pointer transition-all text-gray-800 ease-in-out hover:text-white" /></Link>
