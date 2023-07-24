@@ -38,7 +38,7 @@ const HeaderOne = () => {
             designed to support others existence.
             <br />
             Over the years, Amarpreet started realizing that the concept of
-            being human isn't easily understood by both women and the society,
+            being human isn&apos;t easily understood by both women and the society,
             hence the journey started of making women aware of their rights,
             preparing them to handle the world and presenting the world with
             reality check by doing many data-based studies on how women are
