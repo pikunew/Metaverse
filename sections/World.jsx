@@ -15,7 +15,7 @@ const World = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Places we have reached" textStyles="text-center" />
       <TitleText
         title={
           <>
@@ -28,9 +28,9 @@ const World = () => (
 
       <motion.div
         variants={fadeIn("up", "tween", 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px]"
+        className="relative mt-[68px] flex w-full h-90vh justify-center "
       >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
+        <img src="/whats-new.png" alt="map" className=" xl:w-[700px] sm:w-[500px] h-auto object-cover" />
       </motion.div>
     </motion.div>
   </section>

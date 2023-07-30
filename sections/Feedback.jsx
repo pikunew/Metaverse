@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import Link from "next/link";
 import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 
@@ -44,8 +44,9 @@ const Feedback = () => (
           alt="planet-09"
           className="w-full lg:h-auto h-auto min-h-[210px] object-cover rounded-[40px]"
         />
-
+<Link href="/amarpreet">
         <motion.div
+          
           variants={zoomIn(0.4, 1)}
           className="lg:block hidden absolute -left-[10%] top-[3%]"
         >
@@ -55,6 +56,7 @@ const Feedback = () => (
             className="w-[135px] h-[135px] object-contain"
           />
         </motion.div>
+        </Link>
       </motion.div>
     </motion.div>
   </section>

@@ -10,7 +10,8 @@ import Feedback from "./Feedback";
 import ContactWorld from "./ContactWorld";
 import Video from "./Video";
 import Contribute from "./Contribute";
-
+import Slider from "./Slider";
+import Amar from "./Amar"
 
 
 export {
@@ -26,5 +27,6 @@ export {
   ContactWorld,
   Video,
   Contribute,
-
+  Slider,
+  Amar,
 };

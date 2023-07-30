@@ -26,7 +26,7 @@ const ContactWorld = () => (
         />
       </motion.div>
       <div className=" mt-8">
-      <TypingText title="| People on the World" textStyles="text-center" />
+      <TypingText title="| Feel Free to " textStyles="text-center" />
       </div>
       <TitleText title={<>Get In Touch</>} textStyles="text-center" />
     </motion.div>
@@ -66,7 +66,8 @@ const ContactWorld = () => (
                   className="w-full h-full   relative flex flex-col justify-center items-center"
                 />
               </div>
-              <p className="mt-8 font-bold text-base">+91 1234 123 123</p>
+              <p className="mt-8 font-bold text-base">0124 4007444
+</p>
             </div>
 
             <div className="flex flex-col justify-center items-center">
@@ -91,7 +92,8 @@ const ContactWorld = () => (
                   className="w-full h-full  object-cover relative flex flex-col justify-center text-center"
                 />
               </div>
-              <p className="mt-8 font-bold text-base">abc M.G road delhi , India</p>
+              <p className="mt-8 font-bold text-base">Lajpat Nagar 3, New Delhi-110024
+ , India</p>
             </div>
           </motion.div>
         </div>

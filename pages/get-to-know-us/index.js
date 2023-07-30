@@ -1,7 +1,8 @@
 
-import { GetStarted,About,Hero } from "../../sections";
+import { GetStarted,About,Hero, } from "../../sections";
 import Feedback from "../../sections/Feedback";
 import { Navbar,Footer } from "../../components";
+
 
 const index = () => {
   return (
@@ -10,6 +11,7 @@ const index = () => {
       <Hero />
       <About />
       <Feedback />
+    
       <GetStarted />
       <Footer />
     </div>

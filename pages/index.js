@@ -4,14 +4,17 @@ import {
   HeaderOne,
   AboutCard,
   AboutCircle,
+  
 
 } from "../components";
+import { SliderData } from "../components/SliderData";
+
 import {
   About,
   Explore,
   Feedback,
   GetStarted,
- 
+  Slider,
   Insights,
   Video,
   World,
@@ -35,6 +38,7 @@ const Home = () => (
     
     <Feedback />
     <Insights />
+    <Slider slides={SliderData}/>
     <Footer />
   </div>
 );

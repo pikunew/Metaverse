@@ -10,6 +10,7 @@ import NewFeatures from "./NewFeatures";
 import InsightCard from "./InsightCard";
 import Footer from "./Footer";
 import FeatureTwo from "./FeatureTwo";
+import Chart from "./Chart";
 
 
 export {
@@ -26,5 +27,7 @@ export {
   InsightCard,
   Footer,
   FeatureTwo,
+  Chart,
   
+ 
 };
