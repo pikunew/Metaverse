@@ -9,7 +9,7 @@ const privacyPolicy = () => {
 <Navbar/>   
 
 <section className={`${styles.paddings}`}>
-    <Navbar />
+  
       <div className=" mt-16 flex flex-col justify-center items-center ">
         <h2 className=" font-bold text-xl">PRIVACY STATEMENT</h2>
         

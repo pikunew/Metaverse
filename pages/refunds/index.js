@@ -9,7 +9,7 @@ const refunds = () => {
       <Navbar />
 
       <section className={`${styles.paddings}`}>
-        <Navbar />
+      
         <div className="  mt-16 flex flex-col justify-center text-justify ">
           <div className=" px-32">
             <h3 className=" font-bold text-3xl">Refunds</h3>
