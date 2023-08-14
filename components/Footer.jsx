@@ -68,10 +68,10 @@ const Footer = () => (
               </h3>
               <nav>
                 <ul className=" flex flex-col gap-4 text-gray-900 hover:text-white text-sm">
-                  <li>Make a donation</li>
-                  <li>Get to know us</li>
-                  <li>Out Team</li>
-                  <li>Contribute</li>
+                  <li><Link href="https://rzp.io/l/mahilabol">Make a donation</Link></li>
+                  <li><Link href="/get-to-know-us"> Get to know us</Link></li>
+                  <li><Link href="/what-we-do"> What we do</Link></li>
+                  <li><Link href="/contribute"> Contribute</Link></li>
                   <li><Link href="/privacy-policy">Privacy policy</Link></li>
                 </ul>
               </nav>
