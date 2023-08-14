@@ -9,7 +9,7 @@ const AboutCard = () => {
     <section className={`${styles.paddings}`}>
       <div className=" h-[100%] sm:h-[70vh] flex justify-center items-center text-center">
         <div className="flex gap-8 justify-center items-center flex-col md:flex-row  sm:gap-3 md:gap-5">
-          <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#fff0e8] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#fff0e8] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
@@ -19,7 +19,7 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold ">Women Helpline<br/>0124-4007444</h1>
+              <h1 className=" text-2xl  font-bold ">Women Helpline<br/>0124-4007444</h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base">
               The dedicated women helpline Guides women and girls on how to handle the situation they seek assistance on. Further, how to take the next course of action, either by going to police or going to a relevant NGO in their location for solutions
 
@@ -36,7 +36,7 @@ const AboutCard = () => {
             </div>
           </div>
 
-          <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#E5989B] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#E5989B] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
@@ -64,7 +64,7 @@ const AboutCard = () => {
             </div>
           </div>
 
-          <div className=" h-[38vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#6D6875] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#6D6875] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
