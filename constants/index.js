@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/planet-01.png",
+    imgUrl: "/5.jpg",
     title: "Subject One",
   },
   {
@@ -11,7 +11,7 @@ export const exploreWorlds = [
   },
   {
     id: "world-3",
-    imgUrl: "/planet-03.png",
+    imgUrl: "/planet-03.jpg",
     title: "Subject Three",
   },
   {
