@@ -25,7 +25,7 @@ if (!Array.isArray(slides) || slides.length <=0) {
 
 
   return (
-    <div className=" max-w-[1240px] mx-auto pb-20">
+    <div className=" xl:max-w-[1040px] lg:max-w-[900px] sm:max-w-[650px] mx-auto pb-20 max-w-[370px]">
     <h1 className="text-4xl font-bold text-center p-4">Gallery</h1>
     <div className="relative flex justify-center">
     
