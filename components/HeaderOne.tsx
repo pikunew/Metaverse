@@ -67,7 +67,7 @@ const HeaderOne = () => {
         </div>
         <div className=" p-4 rounded-lg bg-[#F8EDE7] border-[1px] border-black ">
           <Image
-            src="/img_1.jpg"
+            src="/img_hero.jpg"
             width={800}
             height={600}
             alt="hero"
