@@ -10,6 +10,8 @@ import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
+       <div className=" flex justify-center items-center flex-col pb-16"> <TypingText title="| About Us?" />
+        <TitleText title={<>What we do?</>} /></div>
     {/* first feature starts */}
     <motion.div
       variants={staggerContainer}
@@ -22,8 +24,7 @@ const WhatsNew = () => (
         variants={fadeIn("right", "tween", 0.2, 1)}
         className="flex-[0.95] flex justify-center items-center flex-col"
       >
-        <TypingText title="| About Us?" />
-        <TitleText title={<>What we do?</>} />
+        
         <div className="mt-[48px] flex flex-col justify-center gap-1">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
@@ -41,7 +42,7 @@ const WhatsNew = () => (
       >
         <img
           src="/one_v.jpg"
-          alt="get-started"
+          alt="Women Helpline"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
@@ -61,8 +62,8 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/one_v.jpg"
-          alt="get-started"
+          src="/img_001.jpg"
+          alt="Awareness & Education"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
@@ -110,8 +111,8 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/one_v.jpg"
-          alt="get-started"
+          src="/img_003.jpg"
+          alt="Livlihood and Distress Aid"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
