@@ -6,7 +6,7 @@ import { Navbar , Footer } from "../../components";
 const ethicalStandard = () => {
   return (
 <>
-<Navbar/>   
+  
 
 <section className={`${styles.paddings}`}>
     <Navbar />
@@ -41,7 +41,7 @@ Should you find any violation in the above mentioned channels from our set ethic
 <br/>
 <p>
 <span className=" text-slate-900 font-semibold">Opinions and Views Related Standards</span> <br/>
-1.	As far as possible the purpose of our channel is to provide information and data to readers and viewers to enable them in forming their own views and opinions about a subject.<br/>
+1.	The purpose of our channel is to provide information and data to readers and viewers to enable them in forming their own views and opinions about a subject.<br/>
 2.	Views and opinions presented by individuals on the channel shall be of the individual and shall follow the Promoting Equality Guideline
 </p>
 <br/>

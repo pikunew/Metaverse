@@ -25,13 +25,13 @@ if (!Array.isArray(slides) || slides.length <=0) {
 
 
   return (
-    <div className=" xl:max-w-[1040px] lg:max-w-[900px] sm:max-w-[650px] mx-auto pb-20 max-w-[370px]">
+    <div className="  rounded-2xl xl:max-w-[1040px] lg:max-w-[900px] sm:max-w-[650px] mx-auto pb-20 max-w-[370px]">
     <h1 className="text-4xl font-bold text-center p-4">Gallery</h1>
     <div className="relative flex justify-center">
     
         {SliderData.map((slide, index) => {
             return (
-                <div key={index} className={index ===  current ? "opacity-[1] ease-in duration-1000" : "opacity-0"}>
+                <div key={index} className={index ===  current ? " opacity-[1] ease-in duration-1000" : "opacity-0"}>
 
                    
                     <FaArrowCircleLeft
@@ -44,6 +44,7 @@ if (!Array.isArray(slides) || slides.length <=0) {
                     width={1440}
                     height={600}   
                     objectFit="cover" 
+                    
                     />
                     )}
                     <FaArrowCircleRight

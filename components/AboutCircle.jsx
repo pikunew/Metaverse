@@ -22,7 +22,7 @@ const AboutCircle = () => {
             >
               <TypingText title="| What Mahilabol Do" textStyles="text-center" />
               <TitleText
-                title={<>What We are meant for</>}
+                title={<>Our Projects</>}
                 textStyles="text-center"
               />
     
