@@ -6,7 +6,7 @@ const Timeline = () => {
       <div className=" bg-[#f8ede7] relative sm:w-1/2 py-5 mx-auto max-w-[1200px] ">
 
       {/* start */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full left-0">
+        <div className=" py-3 px-12 md:w-1/2 w-full left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">September</h2>
             <small> 2010</small>
