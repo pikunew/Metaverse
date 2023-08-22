@@ -62,21 +62,19 @@ export const featuresThree = [
 export const insights = [
   {
     imgUrl: "/planet-03.jpg",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
-    subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+    title: "The tea garden of assam",
+    
   },
   {
     imgUrl: "/img_006.jpg",
-    title: "7 tips to easily master the madness of the Metaverse",
-    subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+    title: "Wazirabad food and essentials",
+    
+      
   },
   {
     imgUrl: "/img_007.jpg",
-    title: "With one platform you can explore the whole world virtually",
-    subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+    title: " Spreading the awareness in schools",
+    
   },
 ];
 

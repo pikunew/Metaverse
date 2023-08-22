@@ -18,7 +18,7 @@ const Insights = () => (
     >
       <TypingText title="| Insight" textStyles="text-center" />
       <TitleText
-        title={<>Insight about metaverse</>}
+        title={<>Some of the Activities</>}
         textStyles="text-center"
       />
       <div className="mt-[50px] flex flex-col gap-[30px]">
