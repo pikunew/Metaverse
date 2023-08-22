@@ -113,7 +113,7 @@ const Timeline = () => {
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">June</h2>
             <small> 2022</small>
-            <p>Published the book "Ansuna"</p>
+            <p>Published the book &quot;Ansuna&quot;</p>
           </div>
         </div>
       </div>

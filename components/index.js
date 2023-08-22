@@ -11,7 +11,6 @@ import InsightCard from "./InsightCard";
 import Footer from "./Footer";
 import FeatureTwo from "./FeatureTwo";
 import Chart from "./Chart";
-import Form from "./Form";
 import Timeline from "./Timeline";
 
 export {
@@ -29,7 +28,6 @@ export {
   Footer,
   FeatureTwo,
   Chart,
-  Form,
   Timeline,
  
 };
