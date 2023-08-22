@@ -3,10 +3,10 @@
 const Timeline = () => {
   return (
     <div className="bg-[#f8ede7]">
-      <div className=" bg-[#f8ede7] relative sm:w-1/2 py-5 mx-auto max-w-[1200px] ">
+      <div className=" bg-[#f8ede7] relative md:w-[70%] py-5 mx-auto max-w-[1200px] ">
 
       {/* start */}
-        <div className=" py-3 px-12 md:w-1/2 w-full left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">September</h2>
             <small> 2010</small>
@@ -18,7 +18,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full  sm:ml-[50%]">
+        <div className=" py-3 px-12 lg:w-1/2 w-full  lg:ml-[50%]">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">February</h2>
             <small> 2011</small>
@@ -26,7 +26,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full  left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full  left-0">
         
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">April</h2>
@@ -38,7 +38,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full  sm:ml-[50%]">
+        <div className=" py-3 px-12 lg:w-1/2 w-full  lg:ml-[50%]">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">April</h2>
             <small> 2017</small>
@@ -49,7 +49,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full  left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full  left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl"> She-Box November</h2>
             <small> 2017</small>
@@ -60,7 +60,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full   sm:ml-[50%]">
+        <div className=" py-3 px-12 lg:w-1/2 w-full   lg:ml-[50%]">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">Change.org November</h2>
             <small> 2017</small>
@@ -68,7 +68,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full   left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full   left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">March</h2>
             <small> 2018</small>
@@ -79,7 +79,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full   sm:ml-[50%]">
+        <div className=" py-3 px-12 lg:w-1/2 w-full   lg:ml-[50%]">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">July</h2>
             <small> 2018</small>
@@ -90,7 +90,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">February</h2>
             <small> 2018</small>
@@ -101,7 +101,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full  sm:ml-[50%]">
+        <div className=" py-3 px-12 lg:w-1/2 w-full  lg:ml-[50%]">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">September</h2>
             <small> 2018</small>
@@ -109,7 +109,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* one complete */}
-        <div className=" py-3 px-12 sm:w-1/2 w-full left-0">
+        <div className=" py-3 px-12 lg:w-1/2 w-full left-0">
           <div className=" py-5 px-8 bg-white relative rounded-md text-base">
             <h2 className=" text-2xl">June</h2>
             <small> 2022</small>
