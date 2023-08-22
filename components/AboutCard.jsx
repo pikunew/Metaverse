@@ -3,6 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
+import Link from "next/link";
 
 const AboutCard = () => {
   return (
@@ -19,19 +20,27 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-2xl  font-bold ">Women Helpline<br/>0124-4007444</h1>
+              <h1 className=" text-2xl  font-bold ">
+                Women Helpline
+                <br />
+                0124-4007444
+              </h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base">
-              The dedicated women helpline Guides women and girls on how to handle the situation they seek assistance on. Further, how to take the next course of action, either by going to police or going to a relevant NGO in their location for solutions
-
+                The dedicated women helpline Guides women and girls on how to
+                handle the situation they seek assistance on. Further, how to
+                take the next course of action, either by going to police or
+                going to a relevant NGO in their location for solutions
               </p>
 
               <div className="z-10 mt-2">
-                <button
-                  type="button"
-                  className=" hover:bg-[#f8ede7]  hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-gray-900 font-semibold"
-                >
-                  Know More
-                </button>
+                <Link href="/get-to-know-us">
+                  <button
+                    type="button"
+                    className=" hover:bg-[#f8ede7]  hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-gray-900 font-semibold"
+                  >
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -46,20 +55,24 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold ">Awareness & Education
-</h1>
+              <h1 className=" text-3xl  font-bold ">Awareness & Education</h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base text-white">
-              Make the voice of women and girls heard and spread awareness about their rightful place in the society. We educate women and girls on their legal rights, employment options, health matters, skill options and provide them with a platform to voice their views and opinions
-
+                Make the voice of women and girls heard and spread awareness
+                about their rightful place in the society. We educate women and
+                girls on their legal rights, employment options, health matters,
+                skill options and provide them with a platform to voice their
+                views and opinions
               </p>
 
               <div className="z-10 mt-2">
-                <button
-                  type="button"
-                  className="hover:bg-[#E5989B] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-white font-semibold text-white"
-                >
-                  Know More
-                </button>
+                <Link href="/what-we-do">
+                  <button
+                    type="button"
+                    className="hover:bg-[#E5989B] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 text-sm mt-4 border-white font-semibold text-white"
+                  >
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -74,21 +87,23 @@ const AboutCard = () => {
             />
 
             <div className="absolute px-8 sm:px-6 flex  flex-col align-middle text-center justify-center">
-              <h1 className=" text-3xl  font-bold text-white">Livlihood and Distress Aid
-</h1>
+              <h1 className=" text-3xl  font-bold text-white">
+                Livlihood and Distress Aid
+              </h1>
               <p className=" mt-4 text-justify  text-sm font-medium  md:text-base text-white">
-              Provide material support when women and girls are in need of financial or emotional assistance
-
-.
+                Provide material support when women and girls are in need of
+                financial or emotional assistance .
               </p>
 
               <div className="z-10 mt-2">
-                <button
-                  type="button"
-                  className="hover:bg-[#6D6875] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 font-semibold text-sm mt-4 border-white text-white"
-                >
-                  Know More
-                </button>
+                <Link href="/what-we-do">
+                  <button
+                    type="button"
+                    className="hover:bg-[#6D6875] hover:text-white hover:border-white transition-all ease-out hover:scale-110 hover:font-bold  border-[1px] px-8 py-4 font-semibold text-sm mt-4 border-white text-white"
+                  >
+                    Know More
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
