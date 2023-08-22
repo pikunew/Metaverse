@@ -6,6 +6,8 @@ import { TitleText, TypingText } from "../components";
 import { fadeIn, staggerContainer } from "../utils/motion";
 import Image from "next/image";
 
+
+
 const ContactWorld = () => (
   <section className= {`${styles.paddings} h-[200vh] relative  z-10`}>
     <motion.div
@@ -101,6 +103,10 @@ const ContactWorld = () => (
     </motion.div>
 
     {/* New Added Ends */}
+
+
+
+
   </section>
 );
 
