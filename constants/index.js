@@ -1,28 +1,28 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/5.jpg",
-    title: "Subject One",
+    imgUrl: "/a1.jpg",
+    title: "Amarpreet Kaur, releasing her book, Ansuna",
   },
   {
     id: "world-2",
-    imgUrl: "/planet-02.png",
-    title: "Subject Two",
+    imgUrl: "/a2.jpg",
+    title: "Amarpreet Kaur at New York, Goalkeepers",
   },
   {
     id: "world-3",
-    imgUrl: "/planet-03.jpg",
-    title: "Subject Three",
+    imgUrl: "/a3.jpg",
+    title: "Amarpreet Kaur with Smt Maneka Gandhi, Union Minister of Women & Child Development, Government of India",
   },
   {
     id: "world-4",
-    imgUrl: "/planet-04.png",
-    title: "Subject four",
+    imgUrl: "/planet-05.png",
+    title: "Kiran Bedi extending her support to the project",
   },
   {
     id: "world-5",
-    imgUrl: "/planet-05.png",
-    title: "Subject five",
+    imgUrl: "/a5.jpg",
+    title: "Amarpreet Kaur with Crime Against Women Cell, Delhi Police ",
   },
 ];
 

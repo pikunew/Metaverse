@@ -20,12 +20,11 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="|Rights" textStyles="text-center" />
         <TitleText
           title={
             <>
-              Choose the world you want <br className="md:block  hidden" /> to
-              explore
+              Dignified and Equal Work Rights <br className="md:block  hidden" /> for Women 
             </>
           }
           textStyles="text-center text-[#6D6875] "
