@@ -91,7 +91,7 @@ const Timeline = () => {
         <div className="relative z-10 ">
           <img
             src="smoke.jpg"
-            alt=""
+            alt="SHe-Box"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
@@ -118,8 +118,8 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="she.jpg"
+            alt="SHe-Box"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
@@ -146,7 +146,7 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
+            src="change.jpg"
             alt=""
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
           />
@@ -175,8 +175,8 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="hr.jpg"
+            alt="HRhelpdesk Trust"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
@@ -201,8 +201,8 @@ const Timeline = () => {
        <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="wandc.jpg"
+            alt="Ministry of Women & Child Development"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
@@ -229,8 +229,8 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="mahilabol.jpg"
+            alt="Mahilabol"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
@@ -255,8 +255,8 @@ const Timeline = () => {
        <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="bill.jpg"
+            alt="Bill & Belinda Gates Foundation"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
@@ -283,8 +283,8 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
-            alt=""
+            src="ansuna.jpg"
+            alt="Ansuna"
             className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
