@@ -298,7 +298,7 @@ const Timeline = () => {
               </span>
               <h1 className="text-2xl font-bold pt-1">Ansuna</h1>
               <p className="pt-1">
-              Published the book "Ansuna"
+              Published the book &quot;Ansuna &quot;
               </p>
             </div>
           </div>
