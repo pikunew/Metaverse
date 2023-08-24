@@ -8,6 +8,7 @@ const amarpreet = () => {
     <Amar/>
     <Chart/>
     <Timeline/>
+    
     <Footer/>
     </div>
   )

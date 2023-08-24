@@ -1,27 +1,29 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/**/*.{html,js,jsx,tsx}',
-    './components/**/*.{html,js,jsx,tsx}',
-    './sections/**/*.{html,js,jsx,tsx}',
-    './styles/**/*.{js,jsx,tsx}',
+    "./app/**/*.{html,js,jsx,tsx}",
+    "./components/**/*.{html,js,jsx,tsx}",
+    "./sections/**/*.{html,js,jsx,tsx}",
+    "./styles/**/*.{js,jsx,tsx}",
   ],
-  mode: 'jit',
+  mode: "jit",
   theme: {
+   
     extend: {
       backgroundImage: {
-        'white-bg': "url('/white-bg.png')",
-        
-       },
-
+        "white-bg": "url('/white-bg.png')",
+      },
+      inset: {
+        17: "68px",
+        26: "104px",
+      },
 
       colors: {
-        'primary-black': '#f8ede7',
-        'secondary-white': '#c7c7c7', 
-        
+        "primary-black": "#f8ede7",
+        "secondary-white": "#c7c7c7",
       },
       transitionTimingFunction: {
-        'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
+        "out-flex": "cubic-bezier(0.05, 0.6, 0.4, 0.9)",
       },
     },
   },
