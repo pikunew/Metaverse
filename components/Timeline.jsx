@@ -11,13 +11,13 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
+            src="planet-09.png"
             alt=""
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
@@ -37,16 +37,16 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
+            src="planet-09.png"
             alt=""
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute "
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
             <div
-              className=" absolute inset-0 sm:left-[80%] md:left-[117%] lg:left-[110%] 2xl:left-[112%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className=" absolute inset-0  md:left-[122%] lg:left-[113%] 2xl:left-[109.4%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
-            <div className="relative bg-white p-6 rounded-lg shadow-md  lg:left-[128%] md:left-[135%] sm:left-[160%]">
+            <div className="relative bg-white p-6 rounded-lg shadow-md 2xl:left-[124%] xl:left-[130%] lg:left-[139%] md:left-[163%] sm:left-[160%]">
               <span className="font-bold text-[#c93179] text-sm tracking-wide">
                 <h2 className=" text-2xl">February</h2> <small>2011</small>
               </span>
@@ -62,13 +62,13 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
+            src="planet-09.png"
             alt=""
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
@@ -90,16 +90,16 @@ const Timeline = () => {
         <div className="absolute z-0 w-2 h-full bg-white shadow-md inset-0 left-17 md:mx-auto md:right-0 md:left-0"></div>
         <div className="relative z-10 ">
           <img
-            src="smoke.jpg"
+            src="planet-09.png"
             alt="SHe-Box"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
             <div
-              className=" absolute inset-0 sm:left-[80%] md:left-[117%] lg:left-[110%] 2xl:left-[112%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className=" absolute inset-0  md:left-[122%] lg:left-[113%] 2xl:left-[109.4%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
-            <div className="relative bg-white p-6 rounded-lg shadow-md  lg:left-[128%] md:left-[135%] sm:left-[160%]">
+            <div className="relative bg-white p-6 rounded-lg shadow-md 2xl:left-[124%] xl:left-[130%] lg:left-[139%] md:left-[163%] sm:left-[160%]">
               <span className="font-bold text-[#c93179] text-sm tracking-wide">
                 <h2 className=" text-2xl">April</h2> <small>2017</small>
               </span>
@@ -120,11 +120,11 @@ const Timeline = () => {
           <img
             src="she.jpg"
             alt="SHe-Box"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
@@ -148,14 +148,14 @@ const Timeline = () => {
           <img
             src="change.jpg"
             alt=""
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
             <div
-              className=" absolute inset-0 sm:left-[80%] md:left-[117%] lg:left-[110%] 2xl:left-[112%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className=" absolute inset-0  md:left-[122%] lg:left-[113%] 2xl:left-[109.4%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
-            <div className="relative bg-white p-6 rounded-lg shadow-md  lg:left-[128%] md:left-[135%] sm:left-[160%]">
+            <div className="relative bg-white p-6 rounded-lg shadow-md 2xl:left-[124%] xl:left-[130%] lg:left-[139%] md:left-[163%] sm:left-[160%]">
               <span className="font-bold text-[#c93179] text-sm tracking-wide">
                 <h2 className=" text-2xl">November</h2> <small>2017</small>
               </span>
@@ -177,11 +177,11 @@ const Timeline = () => {
           <img
             src="hr.jpg"
             alt="HRhelpdesk Trust"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
@@ -203,14 +203,14 @@ const Timeline = () => {
           <img
             src="wandc.jpg"
             alt="Ministry of Women & Child Development"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
             <div
-              className=" absolute inset-0 sm:left-[80%] md:left-[117%] lg:left-[110%] 2xl:left-[112%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className=" absolute inset-0  md:left-[122%] lg:left-[113%] 2xl:left-[109.4%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
-            <div className="relative bg-white p-6 rounded-lg shadow-md  lg:left-[128%] md:left-[135%] sm:left-[160%]">
+            <div className="relative bg-white p-6 rounded-lg shadow-md 2xl:left-[124%] xl:left-[130%] lg:left-[139%] md:left-[163%] sm:left-[160%]">
               <span className="font-bold text-[#c93179] text-sm tracking-wide">
                 <h2 className=" text-2xl">July</h2> <small>2018</small>
               </span>
@@ -231,11 +231,11 @@ const Timeline = () => {
           <img
             src="mahilabol.jpg"
             alt="Mahilabol"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
@@ -257,14 +257,14 @@ const Timeline = () => {
           <img
             src="bill.jpg"
             alt="Bill & Belinda Gates Foundation"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  lg:left-[47%] md:left-[45.5%] sm:left-[44%] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-4 sm:px-4 px-8 sm:w-1/2 w-full left-0">
             <div
-              className=" absolute inset-0 sm:left-[80%] md:left-[117%] lg:left-[110%] 2xl:left-[112%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className=" absolute inset-0  md:left-[122%] lg:left-[113%] 2xl:left-[109.4%] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
-            <div className="relative bg-white p-6 rounded-lg shadow-md  lg:left-[128%] md:left-[135%] sm:left-[160%]">
+            <div className="relative bg-white p-6 rounded-lg shadow-md 2xl:left-[124%] xl:left-[130%] lg:left-[139%] md:left-[163%] sm:left-[160%]">
               <span className="font-bold text-[#c93179] text-sm tracking-wide">
                 <h2 className=" text-2xl">September</h2> <small>2018</small>
               </span>
@@ -285,11 +285,11 @@ const Timeline = () => {
           <img
             src="ansuna.jpg"
             alt="Ansuna"
-            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white lg:left-[47%] md:left-[45.5%] sm:left-[800px] top:10 sm:absolute "
+            className="h-24 w-24 object-cover rounded-full shodow-md border-4 border-white  xl:left-[47%] lg:left-[45%] md:left-[44%]  top:10 sm:absolute"
           />
           <div className="relative pt-2 md:pr-20 py-3 sm:px-6 px-8 sm:w-1/2 w-full left-0">
             <div
-              className="absolute inset-0 sm:left-[200px] md:left-[400px] lg:left-[610px] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
+              className="absolute inset-0 sm:left-[200px] md:left-[75%] lg:left-[82%] xl:left-[87.5%] 2xl:left-[690px] md:top-10 left-10 h-4 w-4 transform rotate-45 bg-white"
               aria-hidden="true"
             ></div>
             <div className="bg-white p-6 rounded-lg shadow-md  ">
