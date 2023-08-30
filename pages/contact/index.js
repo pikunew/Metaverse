@@ -1,7 +1,7 @@
 "use client";
 
 import { ContactWorld } from "../../sections";
-import { Navbar,Footer} from "../../components";
+import { Navbar,Footer, Contactform} from "../../components";
 
 
 const contact = () => {
@@ -9,7 +9,7 @@ const contact = () => {
     <div>
       <Navbar />
       <ContactWorld />;
-      
+      <Contactform/>;
       <Footer />
     </div>
   );
