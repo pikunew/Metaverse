@@ -18,6 +18,7 @@ import {
   Insights,
   Video,
   World,
+
   
 } from "../sections";
 
@@ -35,7 +36,6 @@ const Home = () => (
     <GetStarted />
     <Video />
     <World />
-    
     <Feedback />
     <Insights />
     <Slider slides={SliderData}/>

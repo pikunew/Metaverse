@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Hero2 from "./Hero2";
+import Hero3 from "./Hero.3";
 import About from "./About";
 import Explore from "./Explore";
 import GetStarted from "./GetStarted";
@@ -11,12 +12,15 @@ import ContactWorld from "./ContactWorld";
 import Video from "./Video";
 import Contribute from "./Contribute";
 import Slider from "./Slider";
-import Amar from "./Amar"
+import Amar from "./Amar";
+import Wazirabad from "./wazirabad";
 
 
 export {
   Hero,
   Hero2,
+  Hero3,
+  Wazirabad,
   About,
   Explore,
   GetStarted,
