@@ -9,7 +9,7 @@ import Image from "next/image";
 
 
 const ContactWorld = () => (
-  <section className= {`${styles.paddings} h-[90vh] relative  z-10`}>
+  <section className= {`${styles.paddings} h-[110vh] relative  z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

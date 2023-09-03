@@ -6,7 +6,7 @@ import { Navbar,Footer, Contactform} from "../../components";
 
 const contact = () => {
   return (
-    <div>
+    <div className=" h-100vh">
       <Navbar />
       <ContactWorld />;
       <Contactform/>;
