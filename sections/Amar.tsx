@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { TypingText } from "../components";
 
 import styles from "../styles";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { fadeIn} from "../utils/motion";
 import React, { useRef } from "react";
 import Image from "next/image";
 import hover3d from "../utils/motion";
-import Link from "next/link";
+
 
 const Amar = () => {
   const hero = useRef<HTMLDivElement>(null);

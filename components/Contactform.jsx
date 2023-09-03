@@ -42,7 +42,7 @@ export default function ContactForm() {
   return (
     <>
     
-      <div className=" sm:mt-[100px] mt-[480px] px-10 py-20 max-w-3xl mx-auto">
+      <div className=" sm:mt-[180px] mt-[30px] px-10 py-20 max-w-3xl mx-auto z-30">
       <h1 className="text-3xl font-bold">Contact Us</h1>
       <p>Please fill in the form below</p>
         <form

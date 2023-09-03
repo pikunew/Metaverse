@@ -13,14 +13,14 @@ import Video from "./Video";
 import Contribute from "./Contribute";
 import Slider from "./Slider";
 import Amar from "./Amar";
-import Wazirabad from "./wazirabad";
-
+import Wazir from "./Wazir";
+import Spreading from "./Spreading";
 
 export {
   Hero,
   Hero2,
   Hero3,
-  Wazirabad,
+  Wazir,
   About,
   Explore,
   GetStarted,
@@ -33,4 +33,5 @@ export {
   Contribute,
   Slider,
   Amar,
+  Spreading,
 };
