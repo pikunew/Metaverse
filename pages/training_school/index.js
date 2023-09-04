@@ -1,7 +1,7 @@
 import { Navbar, Footer } from "../../components";
 import { Spreading } from "../../sections";
 
-const spreading_awareness_school = () => {
+const training_school = () => {
   return (
     <div className=" bg-primary-black overflow-hidden">
       <Navbar />
@@ -12,4 +12,4 @@ const spreading_awareness_school = () => {
   );
 };
 
-export default spreading_awareness_school;
+export default training_school;

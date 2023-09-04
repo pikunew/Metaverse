@@ -7,7 +7,7 @@ const Spreading = () => {
     <div className=" my-36  ">
       <div className=" sm:px-10 px-2  lg:pt-0  lg:pb-20 lg:justify-around lg:items-center   flex flex-col justify-between align-middle gap-4 min-h-full bg-primary-black  overflow-hidden">
         <Image
-          src="/img_006.jpg"
+          src="/img_007.jpg"
           width={1200}
           height={1000}
           alt="hero"
@@ -18,56 +18,26 @@ const Spreading = () => {
 
       <TypingText title="| Activities" textStyles="text-center" />
         <h2 className=" text-3xl font-extrabold text-pink-700">
-          Food Distribution during Covid
+  POSH Training at a school
         </h2>
        
         <p className=" text-justify text-xl">
           <br />
           <br />
-          <span className=" font-black text-2xl text-pink-700">2021</span> was a
-          year of hope for Savitri’s family. After all the suffering and
-          hardship they went through during the first wave of COVID-19, they
-          were looking forward to a kinder year. Fewer people were sick around
-          them. It seemed that the pandemic was finally loosening its grip on
-          society. They hoped to finally return to normalcy, the reassuring
-          stability of ordinary life. But that was not meant to be.
+          To someone who was struggling with unstable jobs, a job at a prestigious school in a tier-2 city in India was a blessing in disguise. Here unlike her normal job being a house help, Mira did not have to worry about being needlessly replaced. She could work there for years without worry as long as she did her work well. The working hours and conditions weren’t terrible, she only had to clean up after the children. 
           <br />
           <br />
-          Savitri’s kitchen which fed 6 souls was about to run out of
-          necessities. The bare minimum provisions, that the meager money from
-          her former employers could only buy enough to sustain them for a week.
-          She had already asked them for help, and for employment twice. They
-          offered some money but ultimately didn't employ them back.
+          As with every job, this job had its negatives too. Mira’s job was good by itself but her co-workers were sometimes terrible. Some people sometimes behaved in inappropriate ways with her and other female staff. A few male staff commented on them and were rude when asked for help with physically demanding tasks. Most of the staff including Mira ignored this behavior. The school sometimes made them work for longer hours than normal or demanded them to work for a lesser wage than what was agreed upon.
           <br />
           <br />
-          Hers was a family that sustained themself on the earnings of Savitri
-          and her Husband Tilak. Savitri worked as a house help, Tilak was a
-          daily wage labourer. They have been unemployed since the advent of the
-          pandemic. They were helped financially during the first wave by their
-          former employers but they refused to employ them again for the fear of
-          contagion due to their living situation in a slum. But as the second
-          wave began, they were stranded with no jobs or help. In a hellish
-          situation with the risk of starvation as high as the risk of disease,
-          Savitri was at the end of her rope.
+          It was then that the mandatory PoSH training session by HRhelpdesk Trust was held at this school. The sessions led by Amarpreet Kaur were a revelation for the staff. A lot of behaviors that they considered normal but annoying and ignored, were offences that had legal provisions for prevention. The sessions were filled with the staff raising amazed questions about behaviors that could be considered offensive. 
           <br />
           <br />
-          Hope was not completely lost. In this terrible situation, HRhelpdesk
-          Trust stepped in to help. Hearing about the awful situation, the trust
-          decided to help by providing food and help. The trust distributed meal
-          kits to all the families in the slum. The kits containing provisions,
-          such as rice, dal , rava, oil, soaps, toothbrushes etc ,were
-          distributed several times throughout the second wave, until the
-          people's financial situation stabilized. Additional help for the
-          payment of bills and hospital costs was also provided.
+          Another great benefit of this session was the raising of awareness among the staff members about their work rights and work rights in general.
           <br />
           <br />
-          Hundreds of families, like Savitri's, were able to survive the second
-          wave due to the efforts of many NGOs like the HRhelpdesk Trust, who
-          stepped in and helped those who would have fallen through society's
-          safety nets.
-          <br />
-          <br />
-          We strive to provide dignity where we can.
+          Self awareness is the best way to bring about change.
+        
         </p>
         
       </div>

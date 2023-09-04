@@ -95,7 +95,7 @@ const AboutCard = () => {
                 financial or emotional assistance .
               </p>
 
-              <div className="z-10 mt-2">
+              <div className="z-10 mt-20">
                 <Link href="/what-we-do">
                   <button
                     type="button"

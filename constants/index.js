@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+
 export const exploreWorlds = [
   {
     id: "world-1",
