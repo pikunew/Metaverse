@@ -28,7 +28,6 @@ const Insights = () => (
             alt="map"
             className=" rounded-xl"
           />
-          <Image />
           <div>
             <Link href="/tea_garden">
             <div className="flex flex-col justify-center items-center align-middle">
@@ -53,7 +52,6 @@ const Insights = () => (
             alt="map"
             className=" rounded-xl"
           />
-          <Image />
           <div>
             <Link href="/wazirabad_food_essentials">
             <div className="flex flex-col justify-center items-center align-middle">
@@ -77,7 +75,6 @@ const Insights = () => (
             alt="map"
             className=" rounded-xl"
           />
-          <Image />
           <div>
             <Link href="/training_school">
             <div className="flex flex-col justify-center items-center align-middle">
