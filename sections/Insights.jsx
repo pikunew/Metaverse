@@ -44,7 +44,7 @@ const Insights = () => (
   {/* story one end */}
 
   {/* story two start */}
-  <div className=" mt-12 flex flex-col lg:flex-row lg:gap-6 gap-4  justify-center align-middle items-center">
+  <div className=" mt-14 flex flex-col lg:flex-row lg:gap-6 gap-4  justify-center align-middle items-center">
           <Image
             width={512}
             height={512}
