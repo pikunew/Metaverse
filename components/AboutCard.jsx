@@ -10,7 +10,7 @@ const AboutCard = () => {
     <section className={`${styles.paddings}`}>
       <div className=" h-[100%] sm:h-[70vh] flex justify-center items-center text-center">
         <div className="flex gap-8 justify-center items-center flex-col md:flex-row  sm:gap-3 md:gap-5">
-          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#fff0e8] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[65vh] xl:w-[28vw] lg:h-[65vh] lg:w-[30vw] bg-[#fff0e8] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
@@ -45,7 +45,7 @@ const AboutCard = () => {
             </div>
           </div>
 
-          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#E5989B] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[65vh] xl:w-[28vw] lg:h-[65vh] lg:w-[30vw] bg-[#E5989B] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
@@ -77,7 +77,7 @@ const AboutCard = () => {
             </div>
           </div>
 
-          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[62vh] xl:w-[28vw] lg:h-[52vh] lg:w-[30vw] bg-[#6D6875] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
+          <div className=" h-[50vh] w-[76vw] sm:h-[54vh] sm:w-[30vw] xl:h-[65vh] xl:w-[28vw] lg:h-[65vh] lg:w-[30vw] bg-[#6D6875] border-[1px] border-gray-600 rounded-md bg-lady relative flex  flex-col  justify-center  ">
             <Image
               width={150}
               height={200}
