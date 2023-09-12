@@ -1,6 +1,6 @@
 import Head from "next/head";
 import "../styles/globals.css";
-
+import { Abril_Fatface } from "@next/font/google";
 
 
 const MyApp = ({ Component, pageProps }) => (

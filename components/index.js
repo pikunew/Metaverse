@@ -12,8 +12,8 @@ import Footer from "./Footer";
 import FeatureTwo from "./FeatureTwo";
 import Chart from "./Chart";
 import Timeline from "./Timeline";
-import Contactform from "./Contactform"
-
+import Contactform from "./Contactform";
+import Contact from "./Contact";
 export {
   Navbar,
   TitleText,
@@ -31,4 +31,5 @@ export {
   Chart,
   Timeline,
   Contactform,
+  Contact,
 };

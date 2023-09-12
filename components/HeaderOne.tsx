@@ -4,9 +4,20 @@ import React, { useRef } from "react";
 import Image from "next/image";
 import hover3d from "../utils/motion";
 import Link from "next/link";
+import { Abril_Fatface } from "@next/font/google";
+
+
 
 const HeaderOne = () => {
   const hero = useRef<HTMLDivElement>(null);
+
+
+  // const abril = Abril_Fatface({
+  //   subsets: ["latin"],
+  //   weight: "400",
+  // });
+
+ 
 
   const hoverHero = hover3d(hero, {
     x: 30,
@@ -19,11 +30,16 @@ const HeaderOne = () => {
     y: -5,
     z: 11,
   });
+
+
+
+
+
   return (
     <div className="mt-28" ref={hero}>
       <div className=" lg:flex-row  lg:pt-0 lg:pr-8 lg:pb-20 lg:pl-14 lg:justify-around lg:items-center lg:gap-2 lg:min-h-[90vh] p-0 flex flex-col-reverse justify-between align-middle gap-6 min-h-full bg-primary-black  overflow-hidden">
         <div className=" xl:w-[35vw] lg:w-[40vw] lg:pt-48 sm:px-16 sm:flex-col sm:text-center pb-16 pt-2 px-6">
-          <h1 className=" font-bold text-4xl text-[#6D6875]">
+          <h1 className=" text-4xl font-bold text-pink-700 " >
             Making the voice of women heard
           </h1>
           <p className="xl:text-base  text-sm   text-gray-800 transition-all ease-linear py-8 text-justify">

@@ -10,7 +10,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
-    "@next/font": "^13.4.12",
+    "@next/font": "^13.4.19",
     "eslint-config-next": "13.0.3",
     "framer-motion": "^7.6.7",
     "mongoose": "^7.5.0",
