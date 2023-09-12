@@ -9,7 +9,9 @@ const contact = () => {
     <div className=" h-100vh">
       <Navbar />
       <ContactWorld />;
+      <div className=" z-40">
       <Contact/>;
+      </div>
       <Footer />;
     </div>
   );
