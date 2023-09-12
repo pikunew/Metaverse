@@ -3,14 +3,14 @@ const Contact = () => {
     
     
 
-    <div className="flex flex-col items-center justify-center mb-32 ">
+    <div className="flex flex-col items-center justify-center mb-32  align-middle ">
     <div className="flex flex-col align-middle justify-center items-center gap-3">
     <h1 className="text-3xl font-bold ">Contact Us</h1>
       <p>Please fill in the form below</p>
     </div>
     <div className="border-[1px] border-pink-700 w-20 mt-2"></div>
       <br/>
-      <div className="flex flex-col border-2 justify-center items-center  w-[90%] py-16 pl-2 sm:pl-36 md:pl-0">
+      <div className="flex flex-col  justify-center items-center border-2 w-[90%] py-16 pl-2 md:pl-30">
         {/* form Start */}
         <div className=" flex  flex-col items-start">
         <div className="flex sm:flex flex-col gap-6">
@@ -26,7 +26,38 @@ const Contact = () => {
           <br></br>
           </div>
           <br />
-        <div className=" flex items-center justify-center gap-4">
+          {/* mobile view */}
+        <div className=" sm:hidden flex-col items-center justify-center gap-4">
+        
+          <div className=" flex flex-col">
+          <label for="first_name">First Name</label>
+          <br/>
+          <input
+            id="first_name"
+            maxlength="40"
+            name="first_name"
+            size="20"
+            type="text"
+            placeholder="First Name"
+          />
+          </div>
+          <br></br>
+          <div className=" flex flex-col">
+          <label for="last_name">Last Name</label>
+          <br/>
+          <input
+            id="last_name"
+            maxlength="80"
+            name="last_name"
+            size="20"
+            type="text"
+            placeholder="Last Name"
+          />
+          </div>
+          <br/>
+        </div>
+        {/* tab and laptop view */}
+        <div className=" hidden sm:flex items-center justify-center gap-4">
         
           <div className=" flex flex-col">
           <label for="first_name">First Name</label>
@@ -57,7 +88,8 @@ const Contact = () => {
         </div>
         <br />
         {/* container */}
-        <div className=" flex items-center justify-center gap-16">
+        {/* mobile */}
+        <div className=" flex-col items-center justify-center gap-16">
          <div className=" flex flex-col gap-4">
           <label for="mobile">Mobile</label>
           <input
@@ -78,6 +110,27 @@ const Contact = () => {
           </div>
         </div>
         <br />
+      {/* tab and laptop */}
+        <div className=" hidden sm:flex items-center justify-center gap-16">
+         <div className=" flex flex-col gap-4">
+          <label for="mobile">Mobile</label>
+          <input
+            id="mobile"
+            maxlength="40"
+            name="mobile"
+            size="20"
+            type="text"
+            placeholder="+91 000000000"
+          />
+          </div>
+          
+          <div className=" flex gap-4 flex-col ">
+          <br/>
+          <label for="email">Email</label>
+          <input id="email" maxlength="80" name="email" size="20" type="text" placeholder="info@example.com" />
+          <br/>
+          </div>
+        </div>
         {/* container end */}
         <div className="flex flex-col justify-center gap-4">
           {" "}
@@ -99,7 +152,7 @@ const Contact = () => {
           <br/>
           <input id="city" maxlength="40" name="city" size="20" type="text" />
           </div>
-          <br/>
+          
           <div className="flex flex-col">
           <label for="country_code">Country</label>
           <br/>
@@ -360,7 +413,7 @@ const Contact = () => {
           
          <div className="flex flex-col gap-4"> <label for="description">Description</label>
          
-          <textarea className=" md:w-[750px]" name="description"></textarea>
+          <textarea className=" md:w-[550px]" name="description"></textarea>
           </div>
         
         </div>
