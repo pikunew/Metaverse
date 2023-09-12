@@ -10,10 +10,10 @@ const Contact = () => {
     </div>
     <div className="border-[1px] border-pink-700 w-20 mt-2"></div>
       <br/>
-      <div className="flex flex-col border-2 w-[60%] py-16 ">
+      <div className="flex flex-col border-2  w-[90%] py-16 pl-2">
         {/* form Start */}
-        <div className=" flex flex-col pl-40 items-start">
-        <div className="flex items-center justify-center gap-4">
+        <div className=" flex flex-col lg:pl-40  items-start">
+        <div className="flex flex-col gap-6">
           <label for="salutation">Salutation</label>
           <select id="salutation" name="salutation" className="border-2">
             <option value="">--None--</option>
@@ -24,6 +24,11 @@ const Contact = () => {
             <option value="Prof.">Prof.</option>
           </select>
           <br></br>
+          </div>
+          <br />
+        <div className="md:flex flex-col items-center justify-center gap-4">
+        
+          <div className=" flex flex-col">
           <label for="first_name">First Name</label>
           <input
             id="first_name"
@@ -33,8 +38,9 @@ const Contact = () => {
             type="text"
             placeholder="First Name"
           />
+          </div>
           <br></br>
-
+          <div className=" flex flex-col">
           <label for="last_name">Last Name</label>
           <input
             id="last_name"
@@ -44,11 +50,12 @@ const Contact = () => {
             type="text"
             placeholder="Last Name"
           />
+          </div>
           <br></br>
         </div>
         <br />
-        <div className="flex items-center justify-center gap-16">
-         <div className=" flex gap-4 items-center">
+        <div className=" md:flex flex-col items-center justify-center gap-16">
+         <div className=" flex flex-col gap-4 items-center">
 
           <label for="mobile">Mobile</label>
           <input
@@ -61,33 +68,36 @@ const Contact = () => {
           />
           </div>
           <br></br>
-          <div className=" flex gap-4 items-center">
+          <div className=" flex gap-4 flex-col items-center">
           <label for="email">Email</label>
           <input id="email" maxlength="80" name="email" size="20" type="text" placeholder="info@example.com" />
           <br></br>
           </div>
         </div>
         <br />
-        <div className="flex justify-center gap-4 items-center">
+        <div className="flex flex-col justify-center gap-4 items-center">
           {" "}
           <label for="company">Company</label>
           <input
             id="company"
             maxlength="40"
             name="company"
-            size="70"
+            size="20"
             type="text"
           />
           <br></br>
         </div>
         <br />
-        <div className="flex justify-center gap-10 items-center">
+        <div className=" md:flex flex-col justify-center gap-10 items-center">
           {" "}
+          <div className="flex flex-col">
           <label for="city">City</label>
           <input id="city" maxlength="40" name="city" size="20" type="text" />
+          </div>
           <br></br>
+          <div className="flex flex-col">
           <label for="country_code">Country</label>
-          <select id="country_code" name="country_code" className=" border-2">
+          <select id="country_code" name="country_code" className=" border-2 w-[150px]">
             <option value="">--None--</option>
             <option value="AF">Afghanistan</option>
             <option value="AX">Aland Islands</option>
@@ -337,23 +347,24 @@ const Contact = () => {
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
           </select>
+          </div>
         </div>
         <br />
         <div className="flex justify-center items-center gap-4">
           
-         <div className="flex items-center gap-4"> <label for="description">Description</label>
-          <textarea className=" w-[750px]" name="description"></textarea>
+         <div className="flex flex-col items-center gap-4"> <label for="description">Description</label>
+          <textarea className=" md:w-[750px]" name="description"></textarea>
           </div>
           <br></br>
         </div>
         <br />
-        <div className="flex gap-4 justify-center">
+        <div className="flex flex-col gap-4 justify-center">
           NGO Responses:
           <select
             id="00NDp000009ZMoo"
             name="00NDp000009ZMoo"
             title="NGO Responses"
-            className="border-2"
+            className="border-2 w-28"
           >
             <option value="" >--None--</option>
             <option value="I want to make a donation">
@@ -372,7 +383,7 @@ const Contact = () => {
         ></div>
         <br></br>
         <div className="flex justify-center ">
-          <input type="submit" name="submit" className=" w-72 bg-pink-600 text-white"></input>
+          <input type="submit" name="submit" className=" md:w-72 w-56 bg-pink-600 text-white"></input>
         </div>
         {/* form ends */}
         </div>
