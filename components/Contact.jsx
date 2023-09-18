@@ -1,8 +1,11 @@
+
+
+"use client";
+
+import { useState } from "react";
+
 const Contact = () => {
   return (
-    
-    
-
     <div className="flex mt-[100px] flex-col items-center justify-center mb-32  align-middle ">
     <div className="flex flex-col align-middle justify-center items-center gap-3">
     <h1 className="text-3xl font-bold ">Contact Us</h1>

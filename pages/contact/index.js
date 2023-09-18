@@ -10,7 +10,7 @@ const contact = () => {
       <Navbar />
       <ContactWorld />;
       <div className=" z-40">
-      <Contact/>;
+       <Contact/>;
       </div>
       <Footer />;
     </div>
