@@ -89,7 +89,7 @@ const Contact = () => {
         <br />
         {/* container */}
         {/* mobile */}
-        <div className=" flex-col items-center justify-center gap-16">
+        <div className=" flex-col hidden items-center justify-center gap-16">
          <div className=" flex flex-col gap-4">
           <label for="mobile">Mobile</label>
           <input
