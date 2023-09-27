@@ -1,10 +1,12 @@
 "use client";
 
+import { useRouter } from "next/router";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
     const [captchaValid, setCaptchaValid] = useState(false);
+    const router = useRouter();
 
     //onSubmit Handler
     const handleOnSubmit = (e) => {
@@ -35,7 +37,8 @@ const Contact = () => {
         )
             .then((response) => response.json())
             .then((result) => {
-                alert(result);
+                //forwarding to thank-you page after successful form submission
+                router.push("thank-you");
                 //Form reset after submitting
                 e.target.reset();
             })
@@ -602,7 +605,6 @@ const Contact = () => {
                             />
                         </div>
                         <div className="flex justify-center ">
-                        <Link href={'/thank-you'}>
                             <button
                                 type="submit"
                                 name="submit"
@@ -613,7 +615,6 @@ const Contact = () => {
                             >
                                 Submit
                             </button>
-                            </Link>
                         </div>
                     </div>
                     {/* form ends */}
