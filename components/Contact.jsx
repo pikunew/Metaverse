@@ -602,6 +602,7 @@ const Contact = () => {
                             />
                         </div>
                         <div className="flex justify-center ">
+                        <Link href={'/thank-you'}>
                             <button
                                 type="submit"
                                 name="submit"
@@ -612,6 +613,7 @@ const Contact = () => {
                             >
                                 Submit
                             </button>
+                            </Link>
                         </div>
                     </div>
                     {/* form ends */}
