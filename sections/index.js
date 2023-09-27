@@ -15,6 +15,7 @@ import Slider from "./Slider";
 import Amar from "./Amar";
 import Wazir from "./Wazir";
 import Spreading from "./Spreading";
+import Thankyou from "./Thankyou"
 
 export {
   Hero,
@@ -34,4 +35,5 @@ export {
   Slider,
   Amar,
   Spreading,
+  Thankyou,
 };
