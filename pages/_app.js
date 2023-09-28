@@ -2,7 +2,7 @@ import Head from "next/head";
 import "../styles/globals.css";
 import { Abril_Fatface } from "@next/font/google";
 import Script from "next/script";
-
+// import GoogleAnalytics from "@bradgarropy/next-google-analytics";
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
@@ -18,6 +18,7 @@ const MyApp = ({ Component, pageProps }) => (
 
  {/* Google tag (gtag.js)  */}
 
+{/* <GoogleAnalytics measurementId="UA-286963877-1"/> */}
  <Script 
       strategy="afterInteractive" 
       src="https://www.googletagmanager.com/gtag/js?id=UA-286963877-1"
