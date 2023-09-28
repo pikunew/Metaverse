@@ -16,7 +16,13 @@ const MyApp = ({ Component, pageProps }) => (
       />
 
 
- {/* Google tag (gtag.js)  */}
+
+
+
+    </Head>
+
+
+     {/* Google tag (gtag.js)  */}
 
 {/* <GoogleAnalytics measurementId="UA-286963877-1"/> */}
  <Script 
@@ -33,9 +39,6 @@ const MyApp = ({ Component, pageProps }) => (
 
       
   </Script>
-
-
-    </Head>
     <Component {...pageProps} />
   </>
 );
