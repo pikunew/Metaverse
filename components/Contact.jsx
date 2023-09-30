@@ -19,7 +19,7 @@ const Contact = () => {
         data.append("mobile", e.target.mobile.value);
         data.append("email", e.target.email.value);
         data.append("company", e.target.company.value);
-        data.append("city", e.target.city.value);
+        // data.append("city", e.target.city.value);
         data.append("country_code", e.target.country_code.value);
         data.append("description", e.target.description.value);
         data.append("00NDp000009ZMoo", e.target.ngo_responses.value);
@@ -37,8 +37,8 @@ const Contact = () => {
         )
             .then((response) => response.json())
             .then((result) => {
-                //forwarding to thank-you page after successful form submission
-                router.push("thank-you");
+                //forwarding to thank_you page after successful form submission
+                router.push("thank_you");
                 //Form reset after submitting
                 e.target.reset();
             })
@@ -212,7 +212,7 @@ const Contact = () => {
                         <br />
                         <div className=" md:flex flex-col justify-center gap-10 ">
                             {" "}
-                            <div className="flex flex-col">
+                            {/* <div className="flex flex-col">
                                 <label htmlFor="city">City</label>
                                 <br />
                                 <input
@@ -222,7 +222,7 @@ const Contact = () => {
                                     size="20"
                                     type="text"
                                 />
-                            </div>
+                            </div> */}
                             <div className="flex flex-col">
                                 <label htmlFor="country_code">Country</label>
                                 <br />
