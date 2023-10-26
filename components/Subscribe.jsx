@@ -53,7 +53,7 @@ export default function Subscribe() {
       </div>
       {error && <div className="text-red-500">{error}</div>}
       {success && (
-        <div className="text-green-500">You've successfully subscribed!</div>
+        <div className="text-green-500">You&apos;ve successfully subscribed!</div>
       )}
     </form>
   );
