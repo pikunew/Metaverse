@@ -7,6 +7,7 @@ import styles from "../styles";
 import { newFeatures,featuresTwo,featuresThree } from "../constants";
 import { NewFeatures,FeatureTwo, TitleText, TypingText } from "../components";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
+import Image from "next/image";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -40,7 +41,9 @@ const WhatsNew = () => (
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
+          width={500}
+          height={500}
           src="/one_v.jpg"
           alt="Women Helpline"
           className="w-[90%] h-[90%] object-contain"
@@ -61,7 +64,9 @@ const WhatsNew = () => (
         variants={planetVariants("left")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
+          width={500}
+          height={500}
           src="/img_001.jpg"
           alt="Awareness & Education"
           className="w-[90%] h-[90%] object-contain"
@@ -110,7 +115,9 @@ const WhatsNew = () => (
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
-        <img
+        <Image
+          height={500}
+          width={500}
           src="/img_003.jpg"
           alt="Livlihood and Distress Aid"
           className="w-[90%] h-[90%] object-contain"

@@ -13,7 +13,7 @@ const WhatWeDo = () => {
     <Hero2/>
     <About />
     <AboutCircle/>
-    <WhatsNew />
+    {/* <WhatsNew /> */}
     <Footer/>
     </div>
   )
