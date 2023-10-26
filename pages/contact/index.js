@@ -1,20 +1,16 @@
-"use client";
-
-import { ContactWorld } from "../../sections";
-import { Navbar,Footer, Contact} from "../../components";
-
+import { Contact, Footer, Navbar } from "../../components";
+import ContactWorld from "../../sections/ContactWorld";
 
 const contact = () => {
   return (
-    <div className=" h-100vh">
-      <Navbar />
-      <ContactWorld />;
-      <div className=" z-40">
-       <Contact/>;
-      </div>
-      <Footer />;
+    <div>
+    <Navbar/>
+    <ContactWorld/>
+    <Contact/>
+    <Footer/>
+    
     </div>
-  );
-};
+  )
+}
 
-export default contact;
+export default contact
