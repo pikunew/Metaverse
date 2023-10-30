@@ -15,6 +15,7 @@ import Timeline from "./Timeline";
 import Contactform from "./Contactform";
 import Contact from "./Contact";
 import Subs from "./Subs"
+import SurveyForm from "./SurveyForm"
 export {
   Navbar,
   TitleText,
@@ -33,5 +34,6 @@ export {
   Timeline,
   Contactform,
   Contact,
+  SurveyForm,
   Subs,
 };

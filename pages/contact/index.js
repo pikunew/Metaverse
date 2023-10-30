@@ -1,12 +1,14 @@
-import { Contact, Footer, Navbar } from "../../components";
+import { Footer, Navbar, SurveyForm } from "../../components";
 import ContactWorld from "../../sections/ContactWorld";
+
 
 const contact = () => {
   return (
     <div>
     <Navbar/>
     <ContactWorld/>
-    <Contact/>
+    
+    <SurveyForm/>
     <Footer/>
     
     </div>
