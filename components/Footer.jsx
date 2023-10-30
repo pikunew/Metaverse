@@ -15,7 +15,7 @@ import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 import Link from "next/link";
 import Subscribe from "./Subscribe";
-
+import { Subs } from ".";
 
 
 
@@ -35,7 +35,8 @@ const Footer = () => (
             
           </div>
           {/* Subscribe button starts */}
-          <Subscribe/>
+          {/* <Subscribe/> */}
+          <Subs/>
           {/* subscribe button ends */}
           {/* Hidden Menu Starts */}
           <div className=" sm:hidden flex align-middle jus text-center gap-5  mt-8">

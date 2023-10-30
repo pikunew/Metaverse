@@ -43,7 +43,9 @@ const ContactForm = () => {
       data.append('00NDp000009ZMoo', values.ngo_responses);
 
       // Data submitting to Salesforce
-      fetch('https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8', {
+
+      
+      fetch('https://formspree.io/f/xnqkwkjz', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -184,6 +186,7 @@ const ContactForm = () => {
         )}
 
         {/* NGO Responses */}
+        <br />
         <label htmlFor="ngo_responses">NGO Responses:</label>
         <select
           id="ngo_responses"
@@ -201,6 +204,7 @@ const ContactForm = () => {
         )}
 
         {/* ReCAPTCHA */}
+        <br />
         <ReCAPTCHA
           sitekey="6LdlWwIoAAAAAObngf5n9QiA2wFeMip4sB1Nii7F"
           onChange={handleRecaptchaOnChange}

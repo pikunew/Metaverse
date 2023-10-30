@@ -14,6 +14,7 @@ import Chart from "./Chart";
 import Timeline from "./Timeline";
 import Contactform from "./Contactform";
 import Contact from "./Contact";
+import Subs from "./Subs"
 export {
   Navbar,
   TitleText,
@@ -32,4 +33,5 @@ export {
   Timeline,
   Contactform,
   Contact,
+  Subs,
 };
