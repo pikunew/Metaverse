@@ -19,7 +19,7 @@ function SurveyForm() {
     }
   };
   return (
-    <div className="w-full h-[130vh] mt-12 mb-40">
+    <div className="w-full h-[130vh] mt-40 mb-40">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
