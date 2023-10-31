@@ -1,7 +1,10 @@
 import React from "react";
-import { useForm, ValidationError } from "@formspree/react";
 import ReCAPTCHA from "react-google-recaptcha";
-import { useRouter } from "next/router";
+import { staggerContainer } from "../utils/motion";
+import { motion } from "framer-motion";
+import styles from "../styles";
+import { TitleText, TypingText } from "../components";
+import { useForm, ValidationError } from "@formspree/react";
 
 function SurveyForm() {
   const [state, handleSubmit] = useForm("myyqobgn");
@@ -16,22 +19,58 @@ function SurveyForm() {
     }
   };
   return (
-    <div className="   ">
-      <form className="mb-10 flex flex-col items-center gap-6" onSubmit={handleSubmit}>
-        <label className="" htmlFor="full-name">
-          Full Name
-        </label>
-        <input
-          type="text"
-          name="name"
-          id="full-name"
-          placeholder="First and Last"
-          required
+    <div className="w-full h-[100vh] mt-12 mb-40">
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.3 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <div className=" mt-8">
+          <TypingText title="| Be in touch " textStyles="text-center" />
+        </div>
+        <TitleText
+          className="mb-8"
+          title={<>Contact Us</>}
+          textStyles="text-center"
         />
+      </motion.div>
 
-        <fieldset id="fs-frm-selects">
-          <label htmlFor="timely">Country</label>
-          <select name="Country" id="timely" required>
+      <form className="w-full max-w-md mx-auto p-6 bg-white rounded-lg shadow-md " onSubmit={handleSubmit}>
+        <div className="mb-6">
+          <label
+            htmlFor="full-name"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Full Name
+          </label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required
+            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
+          />
+        </div>
+
+        <div className="mb-6">
+          <label
+            htmlFor="timely"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Country
+          </label>
+          <select
+            name="country"
+            id="timely"
+            required
+            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
+          >
+            <option value="" disabled>
+              Choose
+            </option>
             <option value="" disabled>
               Choose
             </option>
@@ -282,60 +321,111 @@ function SurveyForm() {
             <option value="YE">Yemen</option>
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
-
-            <option value="India">India</option>
-            <option value="USA">USA</option>
-            <option value="5">United Kingdow</option>
-            <option value="7">Disagree</option>
-            <option value="9">Strongly Disagree</option>
           </select>
-        </fieldset>
+        </div>
+        {/* email */}
+        <div className="mb-6">
+          <label htmlFor="email" className="block text-gray-700 font-bold mb-2">
+            Email Address
+          </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
+          />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        </div>
 
-        <label htmlFor="email">Email Address</label>
-        <input id="email" type="email" name="email" />
-        <ValidationError prefix="Email" field="email" errors={state.errors} />
-        {/* NGO Response */}
+
+        {/* Phone */}
+        <div className="mb-6">
+          <label htmlFor="telephone" className="block text-gray-700 font-bold mb-2">
+            Phone Number
+          </label>
+          <input
+            type="telephone"
+            name="telephone"
+            id="telephone"
+            placeholder="(+91) 99999-99999"
+            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
+          />
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+        </div>
+
+       
+
+
+        {/* ngo response */}
         <fieldset id="fs-frm-selects">
-          <label htmlFor="timely">NGO Response</label>
-          <select name="NGO Response" id="timely" required>
-            <option value="" disabled>
-              Choose
-            </option>
-            <option className=" outline
-            " value="I want to make a donation">
-              I want to make a donation
-            </option>
-            <option value="I want assistance">
-              I want assistance(or need assistance for someone)
-            </option>
-            <option value="Your Message">Your Message</option>
-          </select>
+          <div className="mb-6">
+            <label
+              htmlFor="timely"
+              className="block text-gray-700 font-bold mb-2"
+            >
+              NGO Response
+            </label>
+            <select
+              name="ngo-response"
+              id="timely"
+              required
+              className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
+            >
+              <option value="" disabled>
+                Choose
+              </option>
+              <option value="donation">I want to make a donation</option>
+              <option value="assistance">
+                I want assistance (or need assistance for someone)
+              </option>
+              <option value="Other queries">Other queries</option>
+            </select>
+          </div>
         </fieldset>
-        <textarea 
-        className="h-32"
-        placeholder="Type your message here..."
-        id="message"
-        name="message" />
-        
-        <ValidationError
+
+
+        <div className="mb-6">
+          <label
+            htmlFor="message"
+            className="block text-gray-700 font-bold mb-2"
+          >
+            Message
+          </label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Type your message here..."
+            required
+            className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179] h-32"
+          ></textarea>
+           <ValidationError
           prefix="Message"
           field="message"
           errors={state.errors}
         />
-        
-        <ReCAPTCHA
-          sitekey="6LdlWwIoAAAAAObngf5n9QiA2wFeMip4sB1Nii7F"
-          onChange={handleRecaptchaOnChange}
-        />
-        <button className=" bg-[#c93179] p-3 text-white font-bold rounded-md" type="submit" disabled={state.submitting}>
-          Submit
-        </button>
+        </div>
+
+        <div className="mb-6">
+          <div className="w-full" id="recaptcha">
+            <ReCAPTCHA
+              sitekey="6LdlWwIoAAAAAObngf5n9QiA2wFeMip4sB1Nii7F"
+              onChange={handleRecaptchaOnChange}
+            />
+          </div>
+        </div>
+
+        <div className="flex items-center justify-center">
+          <button
+            className="bg-[#c93179] text-white font-bold py-2 px-4 rounded-lg focus:outline-none hover:bg-[#a71a5d]"
+            type="submit"
+            disabled={state.submitting}
+          >
+            Submit
+          </button>
+        </div>
       </form>
     </div>
   );
-
-
-
 }
 function App() {
   return <SurveyForm />;

@@ -14,7 +14,7 @@ import { useState } from "react";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
 import Link from "next/link";
-import Subscribe from "./Subscribe";
+// import Subscribe from "./Subscribe";
 import { Subs } from ".";
 
 
@@ -24,7 +24,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} sm:pt-20 align-bottom justify-end flex sm:h-1/3 flex-col h-[75vh] relative z-10 bg-[#B5838D] border-t-[1px] text-gray-900`}
+    className={`${styles.xPaddings} sm:pt-20 align-bottom justify-end flex sm:h-1/3 flex-col h-[90vh] relative z-10 bg-[#B5838D] border-t-[1px] text-gray-900`}
   >
     <div className="flex flex-col lg:px-10 ">
       <nav className=" flex sm:flex-row  flex-col  justify-around lg:justify-evenly  gap-6">
@@ -98,7 +98,7 @@ const Footer = () => (
           </div>
           {/* Hidden Menu Ends */}
           <div className=" flex flex-col justify-center sm:items-start items-center  sm:text-start text-center gap-5">
-            <p className=" text-gray-800 hover:text-white text-sm">
+            <p className=" text-gray-100 font-bold hover:text-pink-600 text-sm">
               Making the voice of women heard.
             </p>
             <div className="flex align-middle gap-4 text-2xl">
