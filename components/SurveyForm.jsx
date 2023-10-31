@@ -9,7 +9,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function SurveyForm() {
   const [state, handleSubmit] = useForm("myyqobgn");
   if (state.succeeded) {
-    return <p>Thanks for Feedback!</p>;
+    return <p className=' font-medium text-lg text-white'>Thank you for writing to us, we have got your message and one of our representatives will get back to you shortly.!</p>;
   }
 
   // ReCAPTCHA onChange handler
@@ -19,7 +19,7 @@ function SurveyForm() {
     }
   };
   return (
-    <div className="w-full h-[130vh] mt-40 mb-40">
+    <div className="w-full h-[130vh] -mt-48 mb-40">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
