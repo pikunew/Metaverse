@@ -1,6 +1,5 @@
 import React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import { useRouter } from "next/router"; 
 import { staggerContainer } from "../utils/motion";
 import { motion } from "framer-motion";
 import styles from "../styles";
@@ -9,32 +8,9 @@ import { useForm, ValidationError } from "@formspree/react";
 
 function SurveyForm() {
   const [state, handleSubmit] = useForm("myyqobgn");
-  const router = useRouter(); 
-    
-  // Handle form submission
-  const handleFormSubmit = async (e) => {
-    e.preventDefault();
-
-     // Submit the form
-    const result = await handleSubmit(e);
-
-    if (result.data) {
-      // Check if the submission was successful
-      if (result.data.ok) {
-        // If the submission is successful, navigate to the "thank_you" page
-        router.push("/thank_you");
-      }
-    }
-  };
   if (state.succeeded) {
-    return (
-      <p className='font-medium text-lg text-white'>
-        Thank you for writing to us. We have received your message, and one of our representatives will get back to you shortly.
-      </p>
-    );
+    return <p className=' font-medium text-lg text-white'>Thank you for writing to us, we have got your message and one of our representatives will get back to you shortly.!</p>;
   }
-
-  
 
   // ReCAPTCHA onChange handler
   const handleRecaptchaOnChange = (value) => {
@@ -78,8 +54,6 @@ function SurveyForm() {
             className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-[#c93179]"
           />
         </div>
-
-    
         {/* email */}
         <div className="mb-6">
           <label htmlFor="email" className="block text-gray-700 font-bold mb-2">

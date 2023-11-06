@@ -13,6 +13,7 @@
     "@bradgarropy/next-google-analytics": "^1.0.2",
     "@formspree/react": "^2.5.1",
     "@next/font": "^13.4.19",
+    "@remix-run/react": "^2.2.0",
     "eslint-config-next": "13.0.3",
     "formik": "^2.4.5",
     "framer-motion": "^7.6.7",
