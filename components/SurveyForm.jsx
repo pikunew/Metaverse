@@ -71,9 +71,7 @@ function SurveyForm() {
             <option value="" disabled>
               Choose
             </option>
-            <option value="" disabled>
-              Choose
-            </option>
+
             <option value="IN">India</option>
             <option value="AX">Aland Islands</option>
             <option value="AL">Albania</option>
