@@ -23,10 +23,10 @@ const StoriesCard = () => {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              Some Of the real stories 
+              "Shabashian"
             </Typography>
             <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            "Shabashian" is a captivating genre of stories penned by extraordinary women who have triumphed against the societal odds, showcasing resilience and indomitable spirit. The term "Shabashian" is derived from the word "shabash," which means thanking or applauding in various South Asian languages. These narratives are a celebration of women who have not only achieved remarkable feats in their lives but have also navigated through the challenges imposed by societal norms. Through the art of storytelling, Shabashian serves as an inspiring platform to acknowledge and express gratitude for the relentless efforts and groundbreaking accomplishments of women who have defied expectations, shattered stereotypes, and emerged as beacons of inspiration for others. Each Shabashian story unfolds a tapestry of strength, determination, and success, leaving an indelible mark on the cultural landscape and encouraging others to embark on their own journeys of empowerment.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
               <Button className=" bg-[#BE185D]">view all stories</Button>
