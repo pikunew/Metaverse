@@ -30,7 +30,7 @@ const StoriesInfoCard = () => {
               01
             </Typography>
             <Typography variant="h4" color="blue-gray" className="mb-2">
-            Rising Beyond: Aanya's Himalayan Quest
+            Rising Beyond: Aanya&apos;s Himalayan Quest
             </Typography>
             <Typography color="gray" className="mb-8 font-normal">
             In the heart of Uttarakhand, nestled amidst the lush greenery, lived Aanya <span className=" font-semibold">(name changed)</span>, a young woman whose life was an embodiment of resilience and determination. Her defining moment came when she set her sights on pursuing higher education despite the odds stacked against her. 
