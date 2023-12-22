@@ -6,6 +6,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import Image from "next/image";
+import Link from "next/link";
 
 const StoriesInfoCard = () => {
   return (
@@ -27,7 +28,7 @@ const StoriesInfoCard = () => {
               determination. Her defining moment came when she set her sights on
               pursuing higher education despite the odds stacked against her.
             </Typography>
-            <a href="/shabashian/storyone" className="inline-block">
+            <Link href="/shabashian/storyone" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
@@ -48,7 +49,7 @@ const StoriesInfoCard = () => {
                   />
                 </svg>
               </Button>
-            </a>
+            </Link>
           </CardBody>
         </Card>
         <Image
@@ -82,7 +83,7 @@ const StoriesInfoCard = () => {
               गई थी उसकी बदौलत आज सफाई कर्मियों के लिए सर पर मैला ढोने की प्रथा
               से पूरी तरह निजात मिल चुकी है।
             </Typography>
-            <a href="/shabashian/storytwo" className="inline-block">
+            <Link href="/shabashian/storytwo" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
@@ -103,7 +104,7 @@ const StoriesInfoCard = () => {
                   />
                 </svg>
               </Button>
-            </a>
+            </Link>
           </CardBody>
         </Card>
        
@@ -121,7 +122,7 @@ const StoriesInfoCard = () => {
             <Typography color="gray" className="mb-8 font-normal ">
             Once upon a time, in the bustling city of Noida, there lived a young girl named Suneeta<span className=" font-semibold">(name changed)</span>. At the tender age of 17, she already bore the weight of responsibility on her slender shoulders. Suneeta&apos;s family wasn&apos;t wealthy; in fact, they were humble and hardworking. Her father, a dedicated night guard, kept watch over a residential society, ensuring the safety ... 
             </Typography>
-            <a href="/shabashian/storythree" className="inline-block">
+            <Link href="/shabashian/storythree" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
@@ -142,7 +143,7 @@ const StoriesInfoCard = () => {
                   />
                 </svg>
               </Button>
-            </a>
+            </Link>
           </CardBody>
         </Card>
         <Image

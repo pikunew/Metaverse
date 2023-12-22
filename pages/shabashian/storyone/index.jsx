@@ -37,7 +37,7 @@ const StoriesOne = () => {
               the odds stacked against her.
               <br />
               <br />
-              At 24, Aanya's days were a whirlwind of responsibilities. Her
+              At 24, Aanya&apos;s days were a whirlwind of responsibilities. Her
               family relied on her unwavering support, and she worked tirelessly
               to assist her parents in their daily toil. However, her unwavering
               determination to pursue education shone through the darkest of
@@ -53,14 +53,14 @@ const StoriesOne = () => {
               their thirst for knowledge.
               <br />
               <br />
-              During those snowy days, Aanya's commitment to education became a
+              During those snowy days, Aanya&apos;s commitment to education became a
               beacon of hope for the community. She instilled in the children a
               love for learning, using anything at her disposal—a blackboard
               made from a wooden plank, chalk, and her unwavering spirit.
               <br />
               <br />
               As the storm eventually subsided and the village returned to its
-              normal rhythm, Aanya's determination didn’t waver. She continued
+              normal rhythm, Aanya&apos;s determination didn’t waver. She continued
               her studies with newfound vigour, fuelled by the realization that
               education was not confined to the walls of a classroom—it was a
               flame that could be kindled anywhere, under any circumstance.
@@ -92,7 +92,7 @@ const StoriesOne = () => {
               <br />
               The memory of teaching amidst a snowstorm remained etched in her
               heart—it was a reminder that the pursuit of knowledge knows no
-              bounds. Aanya's journey from the hills of Uttarakhand to the halls
+              bounds. Aanya&apos;s journey from the hills of Uttarakhand to the halls
               of higher education was a testament to the indomitable human
               spirit and the enduring power of education to transform lives, no
               matter the obstacles.

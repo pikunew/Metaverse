@@ -25,7 +25,7 @@ const StoriesThree = () => {
                 Once upon a time, in the bustling city of Noida, there lived a
                 young girl named Suneeta(name changed). At the tender age of 17,
                 she already bore the weight of responsibility on her slender
-                shoulders. Suneeta's family wasn't wealthy; in fact, they were
+                shoulders. Suneeta&apos;s family wasn&apos;t wealthy; in fact, they were
                 humble and hardworking. Her father, a dedicated night guard,
                 kept watch over a residential society, ensuring the safety of
                 its residents during the darkest hours. Her mother, a loving
@@ -46,13 +46,13 @@ const StoriesThree = () => {
                 and ensuring their home was spotless. As the clock ticked
                 towards 6:15, she transformed into a guardian angel for the
                 children of Noida. Suneeta left for a prominent school where she
-                served as a "Suraksha" guard, protecting the little ones on the
+                served as a &apos;Suraksha&apos; guard, protecting the little ones on the
                 school bus. Her enthusiasm was infectious, and she made sure
                 every child felt safe and cared for.
                 <br />
                 <br />
-                The children adored her, affectionately calling her "didi."
-                Suneeta's daily ritual involved picking children from various
+                The children adored her, affectionately calling her &apos;didi.&apos;
+                Suneeta&apos;s daily ritual involved picking children from various
                 societies, making sure they had their tiffin boxes and spreading
                 joy wherever she went. She safely delivered them to school by
                 7:45.
@@ -68,7 +68,7 @@ const StoriesThree = () => {
                 <br />
                 <br />
                 Suneeta hurried back to the school bus, resuming her role as the
-                "Suraksha" guard. Once again, she ensured that each child made
+                &apos;Suraksha&apos; guard. Once again, she ensured that each child made
                 it safely to their respective societies, often waiting with them
                 if their parents were running late. Her day of service concluded
                 around 3 pm, but she was far from done.
@@ -84,7 +84,7 @@ const StoriesThree = () => {
                 <br />
                 By 7 pm, her tutoring was over, and she continued to another
                 selfless endeavour. She offered her tutoring skills to a young
-                child, a second-grader living close to her home. Her day didn't
+                child, a second-grader living close to her home. Her day didn&apos;t
                 truly end until 8:30 when she returned home, where her mother
                 eagerly awaited her to share the responsibility of serving
                 dinner and tidying up the kitchen.
@@ -112,11 +112,11 @@ const StoriesThree = () => {
                 future for all who crossed her path.
                 <br />
                 <br />
-                Life's Uplifting Lesson- The inspiring journey of Suneeta
+                Life&apos;s Uplifting Lesson- The inspiring journey of Suneeta
                 teaches us that unwavering determination, selflessness, and a
                 boundless capacity for kindness can lead to the fulfilment of
-                not only one's own dreams but also the upliftment of an entire
-                community. Suneeta's story reminds us that regardless of the
+                not only one&apos;s own dreams but also the upliftment of an entire
+                community. Suneeta&apos;s story reminds us that regardless of the
                 challenges we face, our actions can make a significant impact on
                 the lives of others, and that by pursuing our dreams with
                 dedication and a sense of service, we can create a better future
