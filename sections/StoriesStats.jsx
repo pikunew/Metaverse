@@ -11,14 +11,14 @@ export function StoriesStats() {
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <Typography variant="h2" color="blue-gray" className="mb-2 text-4xl">
-            Explore Our Impressive Stats
+            Stories from and about brave Women
           </Typography>
           <Typography
             variant="lead"
             className="mx-auto mb-24 w-full !text-gray-500 lg:w-5/12"
           >
-            We take pride in our commitment to excellence and our dedication to
-            your success.
+            
+"Shabashian" is a captivating genre of stories penned by extraordinary women who have triumphed against the societal odds, showcasing resilience and indomitable spirit.
           </Typography>
         </div>
    

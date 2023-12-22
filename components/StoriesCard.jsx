@@ -11,7 +11,7 @@ const StoriesCard = () => {
       <Image
         width={1200}
         height={1200}
-        src="/img_hero.jpg"
+        src="/planet-03.png"
         alt="bg-img"
         className="absolute inset-0 ml-auto mt-[100px] w-[920px] h-[780px] rounded-bl-[100px] object-cover object-center"
       />
