@@ -3,8 +3,6 @@
 import React from "react";
 import { Typography } from "@material-tailwind/react";
 
-
-
 export function StoriesStats() {
   return (
     <section className="px-8 pt-60 mt-52">
@@ -17,11 +15,11 @@ export function StoriesStats() {
             variant="lead"
             className="mx-auto mb-24 w-full !text-gray-500 lg:w-5/12"
           >
-            
-"Shabashian" is a captivating genre of stories penned by extraordinary women who have triumphed against the societal odds, showcasing resilience and indomitable spirit.
+            "Shabashian" is a captivating genre of stories penned by
+            extraordinary women who have triumphed against the societal odds,
+            showcasing resilience and indomitable spirit.
           </Typography>
         </div>
-   
       </div>
     </section>
   );

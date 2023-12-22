@@ -23,10 +23,10 @@ const StoriesCard = () => {
               color="blue-gray"
               className="lg:text-5xl !leading-snug text-3xl lg:max-w-3xl"
             >
-              "Shabashian"
+              &quot;Shabashian&quot;
             </Typography>
             <Typography variant="lead" className="mb-10 mt-6 !text-gray-900">
-            "Shabashian" is a captivating genre of stories penned by extraordinary women who have triumphed against the societal odds, showcasing resilience and indomitable spirit. The term "Shabashian" is derived from the word "shabash," which means thanking or applauding in various South Asian languages. These narratives are a celebration of women who have not only achieved remarkable feats in their lives but have also navigated through the challenges imposed by societal norms. Through the art of storytelling, Shabashian serves as an inspiring platform to acknowledge and express gratitude for the relentless efforts and groundbreaking accomplishments of women who have defied expectations, shattered stereotypes, and emerged as beacons of inspiration for others. Each Shabashian story unfolds a tapestry of strength, determination, and success, leaving an indelible mark on the cultural landscape and encouraging others to embark on their own journeys of empowerment.
+            &quot;Shabashian&quot; is a captivating genre of stories penned by extraordinary women who have triumphed against the societal odds, showcasing resilience and indomitable spirit. The term &quot;Shabashian&quot; is derived from the word &quot;shabash,&quot; which means thanking or applauding in various South Asian languages. These narratives are a celebration of women who have not only achieved remarkable feats in their lives but have also navigated through the challenges imposed by societal norms. Through the art of storytelling, Shabashian serves as an inspiring platform to acknowledge and express gratitude for the relentless efforts and groundbreaking accomplishments of women who have defied expectations, shattered stereotypes, and emerged as beacons of inspiration for others. Each Shabashian story unfolds a tapestry of strength, determination, and success, leaving an indelible mark on the cultural landscape and encouraging others to embark on their own journeys of empowerment.
             </Typography>
             <div className="mb-8 flex justify-center gap-4 lg:justify-start">
               <Button className=" bg-[#BE185D]">view all stories</Button>
