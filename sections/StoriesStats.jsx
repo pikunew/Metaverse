@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Typography } from "@material-tailwind/react";
+import { Typography, Card, Button } from "@material-tailwind/react";
 
 export function StoriesStats() {
   return (
@@ -19,7 +19,9 @@ export function StoriesStats() {
             extraordinary women who have triumphed against the societal odds,
             showcasing resilience and indomitable spirit.
           </Typography>
+         
         </div>
+       
       </div>
     </section>
   );
