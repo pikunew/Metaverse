@@ -12,7 +12,7 @@ const StoriesInfoCard = () => {
     <div className=" lg:h-[220vh] md:h-[300vh] md:mx-16 lg:mx-40 ">
       {/* Story one */}
       <div className=" flex gap-12 justify-center">
-        <Card className="w-full items-center p-28 max-w-[48rem] flex-row">
+        <Card className="w-full items-center p-24 max-w-[48rem] flex-row">
           <CardBody>
             <Typography variant="h6" color="gray" className="mb-4 uppercase">
               01
@@ -59,7 +59,7 @@ const StoriesInfoCard = () => {
           className="h-[600px] w-full max-w-[38rem] rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
         />
       </div>
-      {/* Story one */}
+      {/* Story two */}
       <div className=" flex gap-12 mt-24 justify-center">
       <Image
           width={500}
@@ -68,7 +68,7 @@ const StoriesInfoCard = () => {
           alt="bg-img"
           className="h-[600px] w-full max-w-[38rem] rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
         />
-        <Card className="w-full items-center p-28 max-w-[48rem] flex-row">
+        <Card className="w-full items-center p-24 max-w-[48rem] flex-row">
           <CardBody>
           <Typography variant="h6" color="gray" className="mb-4 uppercase">
               02
@@ -109,8 +109,8 @@ const StoriesInfoCard = () => {
        
       </div>
       {/* Story Three */}
-      <div className=" flex gap-12 mt-24 justify-center">
-        <Card className="w-full items-center p-28 max-w-[48rem] flex-row">
+      <div className=" flex gap-12 mt-24 justify-center mb-52">
+        <Card className="w-full items-center p-24 max-w-[48rem] flex-row">
           <CardBody>
             <Typography variant="h6" color="gray" className="mb-4 uppercase">
               03
