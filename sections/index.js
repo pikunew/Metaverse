@@ -15,7 +15,9 @@ import Slider from "./Slider";
 import Amar from "./Amar";
 import Wazir from "./Wazir";
 import Spreading from "./Spreading";
-import Thankyou from "./Thankyou"
+import Thankyou from "./Thankyou";
+import StoriesStats from "./StoriesStats";
+
 
 export {
   Hero,
@@ -36,4 +38,7 @@ export {
   Amar,
   Spreading,
   Thankyou,
+  StoriesStats,
+  
+  
 };

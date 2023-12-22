@@ -60,6 +60,9 @@ const Navbar = () => {
               <Link href="/contribute"> Contribute</Link>
             </li>
             <li className=" xl:text-base sm:text-sm p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
+              <Link href="/shabashian"> Shabashian</Link>
+            </li>
+            <li className=" xl:text-base sm:text-sm p-4 hover:text-[#c93179] transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/contact"> Contact us</Link>
             </li>
 
@@ -97,6 +100,9 @@ const Navbar = () => {
             </li>
             <li className=" p-4 text-white text-3xl hover:text-gray-200  transition-all ease-out hover:scale-110 hover:font-bold">
               <Link href="/contribute"> Contribute</Link>
+            </li>
+            <li className=" p-4 text-white text-3xl hover:text-gray-200  transition-all ease-out hover:scale-110 hover:font-bold">
+              <Link href="/stories"> Stories</Link>
             </li>
             <li className=" p-4 text-white text-4xl hover:text-gray-200 ">
               <Link href="/contact"> Contact us</Link>

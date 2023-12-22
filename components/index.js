@@ -14,8 +14,11 @@ import Chart from "./Chart";
 import Timeline from "./Timeline";
 import Contactform from "./Contactform";
 import Contact from "./Contact";
-import Subs from "./Subs"
-import SurveyForm from "./SurveyForm"
+import Subs from "./Subs";
+import SurveyForm from "./SurveyForm";
+import StoriesCard from "./StoriesCard";
+import StoriesInfoCard from "./StoriesInfoCard";
+
 export {
   Navbar,
   TitleText,
@@ -36,4 +39,7 @@ export {
   Contact,
   SurveyForm,
   Subs,
+  StoriesCard,
+  StoriesInfoCard,
+  
 };
