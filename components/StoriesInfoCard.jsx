@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const StoriesInfoCard = () => {
   return (
-    <div className=" lg:h-[220vh] md:h-[300vh] md:mx-16 lg:mx-40 ">
+    <div className=" lg:h-[220vh] md:h-[400vh] md:mx-16 lg:mx-40 ">
       {/* Story one */}
       <div className=" flex gap-12 justify-center">
         <Card className="w-full items-center p-24 max-w-[48rem] flex-row">

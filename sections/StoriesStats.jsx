@@ -5,7 +5,7 @@ import { Typography, Card, Button } from "@material-tailwind/react";
 
 export function StoriesStats() {
   return (
-    <section className="px-8 pt-60 mt-52">
+    <section className="px-8 pt-60 md:mt-[300px]">
       <div className="container mx-auto text-center lg:text-left">
         <div className="grid place-items-center text-center">
           <Typography variant="h2" color="blue-gray" className="mb-2 text-4xl">
