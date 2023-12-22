@@ -27,7 +27,7 @@ const StoriesInfoCard = () => {
               determination. Her defining moment came when she set her sights on
               pursuing higher education despite the odds stacked against her.
             </Typography>
-            <a href="#" className="inline-block">
+            <a href="/shabashian/storyone" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
@@ -82,7 +82,7 @@ const StoriesInfoCard = () => {
               गई थी उसकी बदौलत आज सफाई कर्मियों के लिए सर पर मैला ढोने की प्रथा
               से पूरी तरह निजात मिल चुकी है।
             </Typography>
-            <a href="#" className="inline-block">
+            <a href="/shabashian/storytwo" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
@@ -121,7 +121,7 @@ const StoriesInfoCard = () => {
             <Typography color="gray" className="mb-8 font-normal ">
             Once upon a time, in the bustling city of Noida, there lived a young girl named Suneeta<span className=" font-semibold">(name changed)</span>. At the tender age of 17, she already bore the weight of responsibility on her slender shoulders. Suneeta&apos;s family wasn&apos;t wealthy; in fact, they were humble and hardworking. Her father, a dedicated night guard, kept watch over a residential society, ensuring the safety ... 
             </Typography>
-            <a href="#" className="inline-block">
+            <a href="/shabashian/storythree" className="inline-block">
               <Button
                 variant="text"
                 className="flex bg-[#BE185D]  text-white items-center gap-2"
