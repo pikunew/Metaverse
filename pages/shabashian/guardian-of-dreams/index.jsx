@@ -122,11 +122,12 @@ const StoriesThree = () => {
                 dedication and a sense of service, we can create a better future
                 for all.
                 <br />
-                <br />
-                *With university degree and B.ed degree.. Aanya opens a primary
-                school for kids on the hills and she continues to teach the kids
-                with enthusiasm and zeal.
+             
               </Typography>
+              <Typography variant="h6">Suneeta</Typography>
+          <Typography variant="small" color="gray" className="font-normal">
+            Author
+          </Typography>
             </CardBody>
           </Card>
 

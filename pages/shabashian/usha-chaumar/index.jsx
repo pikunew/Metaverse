@@ -115,6 +115,10 @@ const StoriesTwo = () => {
                 पत्रकार।
                 <br />
               </Typography>
+              <Typography variant="h6">उषा चौमर</Typography>
+          <Typography variant="small" color="gray" className="font-normal">
+            Author
+          </Typography>
             </CardBody>
           </Card>
 

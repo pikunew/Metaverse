@@ -1,6 +1,6 @@
 import {
   Card,
-  
+  Avatar,
   CardBody,
   Typography,
 
@@ -102,6 +102,13 @@ const StoriesOne = () => {
               school for kids on the hills and she continues to teach the kids
               with enthusiasm and zeal.
             </Typography>
+            <div>
+            {/* <Avatar className=" h-10 w-10" src="https://docs.material-tailwind.com/img/face-2.jpg" alt="avatar" size="sm" /> */}
+          <Typography variant="h6">Aanya</Typography>
+          <Typography variant="small" color="gray" className="font-normal">
+            Author
+          </Typography>
+        </div>
           </CardBody>
         </Card>
         
