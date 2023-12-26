@@ -124,7 +124,7 @@ const StoriesThree = () => {
                 <br />
              
               </Typography>
-              <Typography variant="h6">Suneeta</Typography>
+              <Typography variant="h6">Gitika Verma</Typography>
           <Typography variant="small" color="gray" className="font-normal">
             Author
           </Typography>
