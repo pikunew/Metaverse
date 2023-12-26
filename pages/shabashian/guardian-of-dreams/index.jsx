@@ -6,10 +6,10 @@ const StoriesThree = () => {
   return (
     <div className="h-[250vh] bg-[#F8EDE7]">
       <Navbar />
-      <div className="mt-[200px] md:mx-16 lg:mx-40">
+      <div className="mt-[200px] md:mx-16 lg:mx-40 pt-28">
         {/* Story one */}
         <div className="flex gap-12 justify-center items-center">
-          <Card className="w-full items-center p-[20px] py-16 max-w-[48rem] flex-row">
+          <Card className="w-full items-center mt-28 p-[20px] py-16 max-w-[48rem] flex-row">
             <CardBody>
               <Typography
                 variant="h6"
