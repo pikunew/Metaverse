@@ -115,7 +115,7 @@ const StoriesTwo = () => {
                 पत्रकार।
                 <br />
               </Typography>
-              <Typography variant="h6">उषा चौमर</Typography>
+              <Typography variant="h6">लक्ष्मीनारायण लक्ष्य</Typography>
           <Typography variant="small" color="gray" className="font-normal">
             Author
           </Typography>
