@@ -24,7 +24,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} sm:pt-20 align-bottom justify-end flex sm:h-1/3 flex-col h-[90vh] relative z-10 bg-[#B5838D] border-t-[1px] text-gray-900`}
+    className={`${styles.xPaddings} sm:pt-20 align-bottom justify-end flex sm:h-1/3 flex-col h-[100vh] relative z-10 bg-[#B5838D] border-t-[1px] text-gray-900`}
   >
     <div className="flex flex-col lg:px-10 ">
       <nav className=" flex sm:flex-row  flex-col  justify-around lg:justify-evenly  gap-6">
