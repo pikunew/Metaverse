@@ -4,10 +4,10 @@ import { StoriesStats } from "../../sections";
 
 const Shabashian = () => {
   return (
-    <div className=" bg-[#F8EDE7]">
+    <div className=" bg-[#F8EDE7] w-full">
       <Navbar />
-  <section className=" w-full"><StoriesCard /></section>  
-      <StoriesStats />
+  {/* <StoriesCard />
+      <StoriesStats /> */}
       <StoriesInfoCard/>
     
       <Footer />
