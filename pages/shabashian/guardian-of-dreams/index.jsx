@@ -1,4 +1,4 @@
-import { Card, CardBody, Typography } from "@material-tailwind/react";
+import { Card, CardBody, Typography,Breadcrumbs } from "@material-tailwind/react";
 import Image from "next/image";
 import { Navbar, Footer } from "../../../components";
 
@@ -8,6 +8,24 @@ const StoriesThree = () => {
       <Navbar />
       <div className="mt-[200px] md:mx-16 lg:mx-40 pt-28">
         {/* Story one */}
+        <div className=" h-7 py-8 bg-white ">
+          <Breadcrumbs className="">
+            <a href="/" className="opacity-60  ">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+              </svg>
+            </a>
+            <a href="/shabashian" className="opacity-60  ">
+              <span>Shabashian</span>
+            </a>
+            <a href ="shabashian/guardian-of-dreams" className=" text-pink-800 font-bold">Guardian of Dreams: The Inspiring Journey of Suneeta</a>
+          </Breadcrumbs>
+        </div>
         <div className="flex flex-col-reverse gap-12 justify-center items-center">
           <Card className="w-full items-center mt-28 p-[20px] py-16 max-w-[48rem] flex-row">
             <CardBody>
@@ -21,7 +39,7 @@ const StoriesThree = () => {
               <Typography variant="h4" color="blue-gray" className="mb-2">
                 Guardian of Dreams: The Inspiring Journey of Suneeta
               </Typography>
-              <Typography color="gray" className="mb-8 font-normal">
+              <Typography color="gray" className="mb-8 font-normal text-justify">
                 Once upon a time, in the bustling city of Noida, there lived a
                 young girl named Suneeta(name changed). At the tender age of 17,
                 she already bore the weight of responsibility on her slender

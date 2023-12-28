@@ -18,7 +18,7 @@ const StoriesStats = () => (
             <Typography variant="h4" color="blue-gray" className="mb-20">
               Rising Beyond: Aanya`&apos;s Himalayan Quest
             </Typography>
-            <Typography color="gray" className="mb-8 font-normal">
+            <Typography color="gray" className="mb-8 font-normal text-justify">
               In the heart of Uttarakhand, nestled amidst the lush greenery,
               lived Aanya(name changed), a young woman whose life was an
               embodiment of resilience and determination. Her defining moment
