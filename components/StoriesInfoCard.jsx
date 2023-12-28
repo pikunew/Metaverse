@@ -11,7 +11,7 @@ const StoriesInfoCard = () => {
         <div className="bg-white rounded-lg h-[600px] md:h[800px] lg:w-[1000px] sm:w-[700px]  md:w-[700px]  lg:px-14 sm:px-10  px-6  pb-[200px] pt-[220px] flex flex-col justify-center  md:gap-2 gap-4">
           <h4 className=" font-black text-8xl flex  ">01</h4>
           <h2 className=" font-bold text-2xl   ">
-            Rising Beyond: Aanya`&apos;s Himalayan Quest
+          Rising Beyond: Aanya`&apos;s Himalayan Quest
           </h2>
           <p className="text-justify lg:text-lg text-base">
             In the heart of Uttarakhand, nestled amidst the lush greenery, lived
