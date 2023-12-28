@@ -4,7 +4,7 @@ import { StoriesStats } from "../../sections";
 
 const Shabashian = () => {
   return (
-    <div className=" bg-[#F8EDE7] w-full">
+    <div className=" bg-[#F8EDE7] ">
       <Navbar />
   {/* <StoriesCard />
       <StoriesStats /> */}

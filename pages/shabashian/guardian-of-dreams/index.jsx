@@ -4,7 +4,7 @@ import { Navbar, Footer } from "../../../components";
 
 const StoriesThree = () => {
   return (
-    <div className="h-[250vh] bg-[#F8EDE7]">
+    <div className=" bg-[#F8EDE7]">
       <Navbar />
       <div className="mt-[200px] md:mx-16 lg:mx-40 pt-28">
         {/* Story one */}
