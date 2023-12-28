@@ -3,7 +3,7 @@
 
 import {
   Card,
-  Avatar,
+ 
   CardBody,
   Typography,
 
@@ -92,7 +92,6 @@ const StoriesStats = () => (
               with enthusiasm and zeal.
             </Typography>
             <div>
-            {/* <Avatar className=" h-10 w-10" src="https://docs.material-tailwind.com/img/face-2.jpg" alt="avatar" size="sm" /> */}
           <Typography variant="h6">Gitika Verma</Typography>
           <Typography variant="small" color="gray" className="font-normal">
             Author

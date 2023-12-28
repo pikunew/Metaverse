@@ -7,9 +7,9 @@ const StoriesTwo = () => {
   return (
     <div className="h-[250vh] bg-[#F8EDE7]">
       <Navbar />
-      <div className=" mt-[200px] md:mx-16 lg:mx-40 pt-28  ">
+      <div className=" mt-[200px] md:mx-16 lg:mx- pt-28   ">
         {/* Story one */}
-        <div className=" flex gap-12 justify-center items-center">
+        <div className=" flex flex-col-reverse m-10 gap-12 justify-center items-center">
           <Card className="w-full items-center mt-28 p-[20px] py-16 max-w-[48rem] flex-row">
             <CardBody>
               <Typography
