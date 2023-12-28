@@ -12,7 +12,7 @@ const StoriesInfoCard = () => {
   return (
     <div className=" lg:h-[280vh] md:h-[400vh] md:mx-16 lg:mx-40 ">
       {/* Story one */}
-      <div className=" flex gap-12 justify-center">
+      <div className=" md:flex gap-12 justify-center">
         <Card className="w-full items-center p-24 max-w-[48rem] flex-row">
           <CardBody>
             <Typography variant="h6" color="gray" className="mb-4 text-7xl  uppercase">

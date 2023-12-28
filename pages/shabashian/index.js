@@ -1,12 +1,12 @@
 import { Footer, Navbar, StoriesCard, StoriesInfoCard } from "../../components";
 import { StoriesStats } from "../../sections";
-import Image from "next/image";
+
 
 const Shabashian = () => {
   return (
     <div className=" bg-[#F8EDE7]">
       <Navbar />
-      <StoriesCard />
+  <section className=" w-full"><StoriesCard /></section>  
       <StoriesStats />
       <StoriesInfoCard/>
     
