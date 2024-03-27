@@ -109,10 +109,10 @@ const Footer = () => (
                 <AiFillInstagram className="pointer transition-all text-gray-800 ease-in-out hover:text-white" />
               </Link>
 
-              <Link href="https://www.facebook.com/MahilaBol/">
+              <Link href="https://www.facebook.com/TeamHRhelpdesk/">
                 <AiFillFacebook className="pointer transition-all text-gray-800 ease-in-out hover:text-white " />
               </Link>
-              <Link href="https://www.youtube.com/@hrhelpdeskdotin/videos">
+              <Link href="https://www.youtube.com/@mahilabol">
                 <AiFillYoutube className="pointer transition-all text-gray-800 ease-in-out hover:text-white "></AiFillYoutube>
               </Link>
             </div>
